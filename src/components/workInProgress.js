@@ -7,7 +7,7 @@ import DevSection from "./devNDesBy.js";
 const devSectionStyling = {
     backgroundImage: "linear-gradient(to left, #247DBE, #71bcf1)",
     fontSize: "20px",
-    padding: "10px 0",
+    padding: "25px 0",
 }
 
 class WorkInProgress extends Component{
