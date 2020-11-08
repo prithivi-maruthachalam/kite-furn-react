@@ -1,0 +1,159 @@
+
+.hero2-base{
+    height: 630px;
+    display: flex;
+    background-color: #8da5a2;
+}
+
+.hero2-A{
+    height: 100%;
+    width: 47%;
+    background-color: rgb(240, 240, 240);
+    position: relative;
+}
+
+.hero2-B{
+    height: 100%;
+    width: 53%;
+    position: relative;
+}
+
+.stair-text-container{
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    z-index: 40;
+}
+
+.stair-text-content{
+    color: #546866;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    width: 400px;
+    position: absolute;
+    right: 0;
+    margin-top: 40px;
+    font-weight: 300;
+}
+
+.content-stair-top{
+    color: #3e7e78;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    line-height: 0.8;
+    font-size: 100px!important;
+    padding-bottom: 5px;
+}
+
+.content-stair-bottom-container{
+    color: #9ecac7;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 45px!important;
+    padding-bottom: 5px;
+    line-height: 1.2;
+    padding: 30px 0;
+}
+
+.highlightA{
+    color: #89b3b0;
+}
+
+.img-stairs{
+    z-index: 30;
+    position: absolute;
+    height: 620px;
+    left: 0px;
+    top: 0px;
+}
+
+.btn-stairs{
+    padding: 5px 30px!important;
+    font-size: 25px!important;
+    font-weight: 500;
+    margin-top: 10px;
+    border-radius: 5px!important;
+    background-color: #5e9bc7!important;
+    border: none!important;
+    color: #ffffff!important;
+    transition: all 0.4s;
+}
+
+.btn-stairs:hover{
+    background-color: #4a7197!important;
+    color: #e4dcd4;
+    transition: all 0.4s;
+}
+
+
+
+.bedFade{
+    position: absolute;
+    top: 40px;
+    right: -20px;
+    height: 570px;
+    width: auto;
+}
+
+
+.bed-text-container{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    z-index: 40;
+}
+
+.bed-text-top{
+    color: #ececec;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    line-height: 1.03;
+    font-size: 100px!important;
+}
+
+.bed-text-subtop{
+    color: #ececec;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+    letter-spacing: 7px;
+    padding-left: 4px;
+    padding-top: 15px;
+    font-size: 29px!important;
+}
+
+.btn-bed{
+    font-weight: 500;
+    border: none;
+    color: #ffffff;
+    padding: 3px 30px!important;
+    font-size: 30px!important;
+    font-weight: 500;
+    border-radius: 50px!important;
+    color: #1FAAA0!important;
+
+    margin-top: 50px;
+    transition: all 0.4s;
+}
+
+.btn-bed:hover{
+    color: #1d837c!important;
+    transition: all 0.4s;
+}
+
+.bed-text-content{
+    color: #e7e7e7e0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    width: 460px;
+    position: absolute;
+    left: 2px;
+    margin-top: 40px;
+    font-weight: 400;
+}
+
+.bed-lowlight{
+    color: #dddddd;
+    opacity: 0.5;
+}
+

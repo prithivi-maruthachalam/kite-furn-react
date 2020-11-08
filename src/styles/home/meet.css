@@ -1,0 +1,193 @@
+.meet-base{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: flex;
+}
+
+.meet-left{
+    height: 100%;
+    width: 26%;
+    background-color: #928181;
+    padding-top: 25px;
+}
+
+.meet-head{
+    color: #a89797;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    line-height: 0.8;
+    font-size: 50px!important;
+
+    padding-left: 35px;
+    padding-top: 32px;
+
+    top: 0;
+    left: 0;
+
+    position: absolute;
+}
+
+.meet-left-img{
+    width: 420px;
+    height: auto;
+
+    background-image: url("../../media/backgrounds/dirtB.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meet-left-images{
+    width: 100%;
+    text-align: center;
+    display: block;
+
+    margin-top: 85px;
+
+    border-right: 2px solid #a89797b9;;
+}
+
+
+
+.meet-right{
+    height: 100%;
+    width: 74%;
+    background-color: #928181;
+}
+
+
+.meet-right-images{
+    width: 100%;
+    height: 87%;
+
+    padding: 20px;
+    margin-top: 85px;
+}
+
+.meet-right-grid{
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(3,minmax(1px,1fr));
+    grid-template-rows: repeat(2,minmax(1px,1fr));
+    grid-gap: 50px 75px;
+
+    padding: 5px 20px;
+}
+
+.meet-right-grid > div{
+    text-align: center;
+    position: relative;
+}
+
+.meet-right-grid > div > img{
+    max-width: 50%;
+    height: 100%;
+    border-radius: 2px;
+
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+
+    opacity: 0.95;
+}
+
+.meet-img-card{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    float: right;
+    height: 100%;
+    width: 50%;
+
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0), rgba(0, 0, 0, 0.041));
+
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+#mm_card{
+    right: -10px;
+}
+
+.person-name{
+    font-size: 26px;
+    color: #534747e3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+#mm{
+    font-size: 23px;
+}
+
+.person-desc{
+    font-size: 19px;
+    color: #615d5d;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding-top: 2px;
+}
+
+.text-container{
+    padding-right: 10px;
+
+    position: absolute;
+    left: -10px;
+    top: 10px;
+}
+
+.address-title{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+
+    color: #c0a899;
+}
+
+.address-link{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #d3b09a!important;
+    transition: all 0.4s;
+    text-decoration: none!important;
+}
+
+.address-link:hover {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+
+    color: #30251a!important;
+    transition: all 0.4s;
+}  
+
+.address-text{
+    padding-top: 8px;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #cfb8b8;;
+}
+
+.footer-phone{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 7px 22px!important;
+    background: linear-gradient(145deg, #beaeae, #c2a6a6);
+    box-shadow:  5px 5px 5px #7c6e6ea4;
+}
+
+.footer-buttons-container{
+    position: absolute;
+    bottom: 5px;
+    left: -10px;
+}

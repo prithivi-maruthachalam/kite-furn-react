@@ -1,0 +1,74 @@
+.kitchen-base{
+    background-color: #57575734;
+    width: 100%;
+    height: 450px;
+    border-bottom: 1px solid #e7e7e6;
+    position: relative;
+}
+
+.kitchen-A{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 40px;
+    padding-left: 35px;
+}
+
+.mr-img{
+    padding-right: 35px;
+}
+
+.kitchen-img{
+    height: 370px;
+    width: auto;
+    float: left;
+    border-radius: 3px;
+}
+
+.kitchen-B{
+    width: 37%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    padding-top: 38px;
+    padding-right: 38px;
+}
+
+.kitchen-title{
+    color: #6c96db;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    line-height: 0.9;
+    font-size: 110px;
+    padding-top: 5px;
+}
+
+.btn-kitchen{
+    padding: 5px 30px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    border: none!important;
+    color: #4a7197;
+    transition: all 0.4s;
+}
+
+.btn-kitchen:hover{
+    background-color: #e4e4e4;
+    transition: all 0.4s;
+}
+
+.kitchen-content{
+    padding-top:30px;
+    padding-bottom: 20px;
+    font-size: 17.5px;
+    font-weight: 400;;
+    font-family: 'Open Sans', sans-serif;
+    color: #666161; 
+}

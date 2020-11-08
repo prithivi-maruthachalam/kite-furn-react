@@ -1,0 +1,160 @@
+
+.hero-base{
+    background-image: linear-gradient(to left, #247DBE, #71bcf1);
+    height: 580px;
+    position: relative;
+}
+
+.hero-space-image{
+    height: 780px;
+    width: auto;
+    position: relative;
+    z-index: 20;
+}
+
+.mt-4-5{
+    margin-top: 35px;
+}
+
+
+@keyframes door-anim {
+    0% {
+        height: 665px;
+        left: 60%;
+        top: 55px;
+    }
+
+    50% {
+        height: 745px;
+        left: 23%;
+        top: 15px;
+    }
+
+    100% {
+        height: 665px;
+        left: 60%;
+        top: 55px;
+    }
+}
+
+@keyframes door-anim2 {
+    0% {
+        height: 785px;
+        left: 35px;
+        top: -5px;
+    }
+
+    50% {
+        height: 670px;
+        left: 50%;
+        top: 50px;
+    }
+
+    100% {
+        height: 785px;
+        left: 35px;
+        top: -5px;
+    }
+}
+
+.hero-space-image-door{
+    height: 660px;
+    width: auto;
+    opacity: 1;
+    position: absolute;
+    z-index: 70;
+
+    left: 60%;
+    top: 60px;
+
+    /*Animation*/
+    animation: door-anim 7s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.hero-space-image-door2{
+    width: auto;
+    opacity: 1;
+    position: absolute;
+    z-index: 69;
+
+    height: 785px;
+    left: 35px;
+    top: -5px;
+
+    /*Animation*/
+    animation: door-anim2 6s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.hero-image-bg-left{
+    position: absolute;
+    top: 25px;
+    left: 40px;
+}
+
+.hero-image-bg-right{
+    position: absolute;
+    z-index: 20;
+    top: 15px;
+    right: 40px;
+}
+
+.hero-text{
+    font-size: 150px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 0.95;
+    background: -webkit-linear-gradient(#79c5fc, #91c9f1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-explore{
+    padding: 5px 30px!important;
+    font-size: 30px!important;
+    font-weight: 500;
+    border-radius: 50px!important;
+    color: #1FAAA0!important;
+}
+
+.btn-explore:hover .btn-img{
+    width: 0;
+    margin-left: 0;
+    transition: all 1s;
+}
+
+.btn-img{
+    width: 40px;
+    height: auto;
+    margin-left: 10px;
+    transition: all 0.4s;
+}
+
+.hero-base-2{
+    background-image: linear-gradient(to left, #f1f1f1, #ffffff);
+    padding: 27px 40px;
+    height: 280px;
+}
+
+.content-container{
+    width: 700px;
+    height: auto;
+    float: right;
+}
+
+.content-title{
+    color: #1FAAA0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 35px!important;
+    padding-bottom: 5px;
+}
+
+.content{
+    color: #546866;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 800px;
+}
