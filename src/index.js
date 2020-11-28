@@ -23,5 +23,6 @@ export default express()
       console.error(err);
       return;
     }
-    console.log(`> Started on port ${port}`);
+    console.log(`ENV port was set to ${process.env.PORT}`)
+    console.log(`>>> Started on port ${port}`);
   });
