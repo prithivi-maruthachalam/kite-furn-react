@@ -8,18 +8,18 @@ import Process from "./process.js";
 import Kitchen from "./kitchen.js";
 import DevSection from "../devNDesBy.js";
 
-
+import '../../styles/home/index.css';
 class Home extends Component {
   render(){
     return (
-        <div className="fluid-container text-center" style={{paddingTop: '77px'}}>
-            <Hero/>
-            <Hero2 />
-            <CustomisedInt/>
-            <Kitchen />
-            <Process />
-            <Meet />
-            <DevSection/>
+        <div className="fluid-container text-center homeContainer">
+          <Hero/>
+          <Hero2 />
+          <CustomisedInt/>
+          <Kitchen />
+          <Process />
+          <Meet />
+          <DevSection/>
         </div>
     );
   }

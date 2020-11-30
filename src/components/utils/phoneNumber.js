@@ -15,12 +15,6 @@ const btnClass = {
     border: "none",
     outline: "none",
 
-    //height: "36px",
-    paddingRight: "20px",
-    paddingLeft: "20px",
-    paddingTop: "10px",
-    paddingBottom: "10px",
-
     color: "#ffffff",
 
     background: "linear-gradient(135deg, #7fc4e4, #6bb5e0)",

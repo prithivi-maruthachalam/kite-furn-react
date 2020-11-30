@@ -5,6 +5,7 @@ import {Link, withRouter} from 'react-router-dom';
 import dropArrow from '../media/icons/icons8-triangle-arrow-96.png';
 import homeIcon from '../media/icons/home-icon.png';
 import mapIcon from '../media/icons/map_fat_orange.png';
+import menuIcon from '../media/icons/menu.png';
 
 import PhoneButton from './utils/phoneNumber';
 
@@ -15,23 +16,24 @@ class Header extends Component{
     render(){
       return(
         <div className="header-container">
-        <div className="site-header">
-              <div className="row header-padding">
-                <div className="col-md-5 text-left header-left">
+          <div className="site-header">
+              <div className="col-head-box header-padding">
+                <div className="col-head header-left">
                   <WrappedNav/>
                   <CustomMenu className="mx-2-5 header-button-base hover-flip">
                     Customized Interiors<img className="top-btn-arrow" src={dropArrow} alt=""/> 
                   </CustomMenu>
                 </div>
 
-                  <div className="col-md-7 text-right header-right">
+                  <div className="col-head header-right">
+                    <CollapsibleMenu/>
                     <a href="https://goo.gl/maps/u4nzcxS5XatMFXyA7" target="_blank">
                       <button className="header-button-base map-button">
                         <img src={mapIcon} alt="Interior showroom design 303-1, Trichy Road Singanallur Coimbatore" className="map-icon hover-shake"/>
                       </button>
                     </a>
-                    <PhoneButton employeeName="Sajeesh" employeeNumber="8940401792" className="mx-2-5"/>
-                    <PhoneButton employeeName="Prabhu" employeeNumber="8940401793" className="mx-2-5"/>
+                    <PhoneButton employeeName="Sajeesh" employeeNumber="8940401792" className="mx-2-5 call-btn-pad"/>
+                    <PhoneButton employeeName="Prabhu" employeeNumber="8940401793" className="mx-2-5 call-btn-pad"/>
                     <Link exact to="/"><button className="btn btn-logo mx-2-5"/></Link>
                   </div>
               
@@ -97,19 +99,19 @@ class NavMenu extends Component{
   render(){
     return(
       <span onLoad={console.log(this.props.location.pathname)}>
-        <Link to="/">
+        <Link to="/" className="resp-block">
           <button className={this.state.classnameslist[0]} onClick={() => this.navSwitch(0)}>
             <img className="top-btn-img-home" src={homeIcon} alt="space saving furniture for small homes"/>
           </button>
         </Link>  
 
-        <Link to="/residenceInteriors">
+        <Link to="/residenceInteriors" className="resp-block">
           <button className={this.state.classnameslist[1]} onClick={() => this.navSwitch(1)}>
             Residence Interiors
           </button>
         </Link>
 
-        <Link to="/modularkitchens">
+        <Link to="/modularkitchens" className="resp-block">
           <button className={this.state.classnameslist[2]} onClick={() => this.navSwitch(2)}>
             Modular Kitchens
           </button>
@@ -120,6 +122,53 @@ class NavMenu extends Component{
 }
 
 const WrappedNav = withRouter(NavMenu);
+
+class CollapsibleMenu extends Component{
+  constructor(props){
+    super(props);
+    this.state = {
+      toggleClass: "coll-nav-container"
+    }
+
+    this.toggleCount = 0;
+    this.wrapperRef = createRef(null);
+  }
+
+
+  componentDidMount(){
+    window.addEventListener("click",(event)=>{
+      if(this.wrapperRef.current && !this.wrapperRef.current.contains(event.target)){
+        this.setState({
+          toggleClass: "coll-nav-container"
+        });
+        this.toggleCount = 0;
+      }
+    });
+  }
+
+  toggle = () =>{
+    this.setState({
+      toggleClass: (this.toggleCount == 0) ? this.state.toggleClass + " cond-display" : "coll-nav-container"
+    });
+    this.toggleCount = !this.toggleCount;
+  }
+
+  render(){
+    return(
+      <span className="coll-nav" ref={this.wrapperRef}>
+        <button className="header-button-base menu-button" onClick={this.toggle}>
+          <img src={menuIcon} alt="Interior showroom design 303-1, Trichy Road Singanallur Coimbatore" className="map-icon hover-shake"/>
+        </button>
+        <div className={this.state.toggleClass}>
+          <WrappedNav/>
+          <CustomMenu className="mx-2-5 header-button-base hover-flip resp-block">
+            Customized Interiors<img className="top-btn-arrow" src={dropArrow} alt=""/> 
+          </CustomMenu>
+        </div>
+      </span>
+    );
+  }
+}
 
 class CustomMenu extends Component{
   constructor(props){
