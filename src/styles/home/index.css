@@ -7,3 +7,9 @@
         padding-top: 127px;
     }
 }
+
+@media(max-width:870px){
+    .homeContainer{
+        padding-top: 77px;
+    }
+}

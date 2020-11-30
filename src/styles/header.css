@@ -195,6 +195,7 @@
     height: 130px;
     width: 460px;
     padding: 10px 20px;
+    z-index: 60;
 }
 
 .dropdown-container{
@@ -319,10 +320,12 @@
     background-color: #57a2db;
     top: 0;
     left: 0;
-    padding-top: 30px;
+    padding-top: 15px;
     padding-bottom: 30px;
     padding-right: 15px;
+    padding-left: 15px;
     z-index: 50;
+    text-align: left;
 }
 
 .menu-button{
@@ -337,6 +340,22 @@
     transition: all 0.3s;
 }
 
+.menu-top{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+.menu-title{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.menu-close{
+    cursor: pointer;
+}
 
 @media(max-width: 870px){
     /*Collapse everything and get to phone mode*/
@@ -364,6 +383,7 @@
     .resp-block{
         display: block!important;
         margin-top: 20px;
+        width: fit-content;
     }
 
     .menu-button{
@@ -373,5 +393,17 @@
 
     .cond-display{
         display: block;
+    }
+
+    .header-container{
+        height: 77px;
+    }
+
+    .menu-drop-enter-active{
+        top: 70px;
+    }
+
+    .menu-drop-enter-done{
+        top: 70px;
     }
 }

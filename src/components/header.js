@@ -87,7 +87,7 @@ class NavMenu extends Component{
     this.navSwitch(index);
   }
 
-  componentWillMount(){
+  componentDidMount(){
     let index = this.pathsList.indexOf(this.props.location.pathname);
     if(index === this.currentIndex)
       return
@@ -132,11 +132,14 @@ class CollapsibleMenu extends Component{
 
     this.toggleCount = 0;
     this.wrapperRef = createRef(null);
+    this.navRef = createRef(null);
+    this.customRef = createRef(null);
   }
 
 
   componentDidMount(){
     window.addEventListener("click",(event)=>{
+      console.log(event.target);
       if(this.wrapperRef.current && !this.wrapperRef.current.contains(event.target)){
         this.setState({
           toggleClass: "coll-nav-container"
@@ -160,8 +163,14 @@ class CollapsibleMenu extends Component{
           <img src={menuIcon} alt="Interior showroom design 303-1, Trichy Road Singanallur Coimbatore" className="map-icon hover-shake"/>
         </button>
         <div className={this.state.toggleClass}>
-          <WrappedNav/>
-          <CustomMenu className="mx-2-5 header-button-base hover-flip resp-block">
+          <div className="menu-top">
+            <div className="menu-title">
+              Menu
+            </div>
+            <div className="menu-title menu-close" onClick={this.toggle}>X</div>
+          </div>
+          <WrappedNav ref={this.navRef}/>
+          <CustomMenu ref={this.customRef} className="mx-2-5 header-button-base hover-flip resp-block">
             Customized Interiors<img className="top-btn-arrow" src={dropArrow} alt=""/> 
           </CustomMenu>
         </div>
@@ -217,18 +226,18 @@ class CustomMenu extends Component{
           <div className="menu-drop-internal text-center">
             <div className="menu-drop-buttons-container">
               <Link to="customInteriors">
-                <button className="btn btn-light btn-sub-nav">Hotel Interiors</button>
+                <button className="btn btn-light btn-sub-nav" onClick={()=>{this.setState({inProp: false});}}>Hotel Interiors</button>
               </Link>
               <Link to="customInteriors">
-                <button className="btn btn-light btn-sub-nav">Bakeries</button>
+                <button className="btn btn-light btn-sub-nav" onClick={()=>{this.setState({inProp: false});}}>Bakeries</button>
               </Link>
-                <button className="btn btn-light btn-sub-nav">Departmentals Stores</button>
+                <button className="btn btn-light btn-sub-nav" onClick={()=>{this.setState({inProp: false});}}>Departmentals Stores</button>
               <Link to="customInteriors">  
-                <button className="btn btn-light btn-sub-nav">Banquet &#38; Meeting Halls</button>
+                <button className="btn btn-light btn-sub-nav" onClick={()=>{this.setState({inProp: false});}}>Banquet &#38; Meeting Halls</button>
               </Link>
-                <button className="btn btn-light btn-sub-nav">Offices</button>
+                <button className="btn btn-light btn-sub-nav" onClick={()=>{this.setState({inProp: false});}}>Offices</button>
               <Link to="customInteriors">  
-                <button className="btn btn-light btn-sub-nav">View More</button>
+                <button className="btn btn-light btn-sub-nav" onClick={()=>{this.setState({inProp: false});}}>View More</button>
               </Link>
             </div>
           </div>
