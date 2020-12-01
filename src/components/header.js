@@ -137,23 +137,22 @@ class CollapsibleMenu extends Component{
 
     this.toggleCount = 0;
     this.wrapperRef = createRef(null);
-    this.navRef = createRef(null);
-    this.customRef = createRef(null);
   }
 
 
   componentDidMount(){
     window.addEventListener("click",(event)=>{
       if(this.wrapperRef.current && !this.wrapperRef.current.contains(event.target)){
-        this.setState({inProp: true});
+        this.setState({inProp: false});
       }
+      //alert(this.wrapperRef.current.contains(event.target));
     });
   }
 
   render(){
     return(
-      <span className="coll-nav" ref={this.wrapperRef}>
-        <button className="header-button-base menu-button" onClick={()=>{this.setState({inProp: !this.state.inProp});}}>
+      <span className="coll-nav">
+        <button ref={this.wrapperRef} className="header-button-base menu-button" onClick={()=>{this.setState({inProp: !this.state.inProp});}}>
           <img src={menuIcon} alt="Interior showroom design 303-1, Trichy Road Singanallur Coimbatore" className="map-icon hover-shake"/>
         </button>
         <CSSTransition
@@ -169,8 +168,8 @@ class CollapsibleMenu extends Component{
               </div>
               <div className="menu-title menu-close" onClick={()=>{this.setState({inProp: false});}}>X</div>
             </div>
-            <WrappedNav ref={this.navRef}/>
-            <CustomMenu ref={this.customRef} className="mx-2-5 header-button-base hover-flip resp-block">
+            <WrappedNav/>
+            <CustomMenu className="mx-2-5 header-button-base hover-flip resp-block">
               Customized Interiors<img className="top-btn-arrow" src={dropArrow} alt=""/> 
             </CustomMenu>
           </div>
