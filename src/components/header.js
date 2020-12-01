@@ -26,14 +26,19 @@ class Header extends Component{
                 </div>
 
                   <div className="col-head header-right">
-                    <CollapsibleMenu/>
-                    <a href="https://goo.gl/maps/u4nzcxS5XatMFXyA7" target="_blank">
-                      <button className="header-button-base map-button">
-                        <img src={mapIcon} alt="Interior showroom design 303-1, Trichy Road Singanallur Coimbatore" className="map-icon hover-shake"/>
-                      </button>
-                    </a>
-                    <PhoneButton employeeName="Sajeesh" employeeNumber="8940401792" className="mx-2-5 call-btn-pad"/>
-                    <PhoneButton employeeName="Prabhu" employeeNumber="8940401793" className="mx-2-5 call-btn-pad"/>
+                    <div className="nav-container">
+                      <CollapsibleMenu/>
+                      <a href="https://goo.gl/maps/u4nzcxS5XatMFXyA7" target="_blank">
+                        <button className="header-button-base map-button">
+                          <img src={mapIcon} alt="Interior showroom design 303-1, Trichy Road Singanallur Coimbatore" className="map-icon hover-shake"/>
+                        </button>
+                      </a>
+                    </div>
+
+                    <div className="phn-container">
+                      <PhoneButton employeeName="Sajeesh" employeeNumber="8940401792" className="mx-2-5 call-btn-pad call-btn-A"/>
+                      <PhoneButton employeeName="Prabhu" employeeNumber="8940401793" className="mx-2-5 call-btn-pad call-btn-B"/>
+                    </div>
                     <Link exact to="/"><button className="btn btn-logo mx-2-5"/></Link>
                   </div>
               

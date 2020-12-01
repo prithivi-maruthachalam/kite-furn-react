@@ -10,6 +10,18 @@
 
 @media(max-width:870px){
     .homeContainer{
-        padding-top: 77px;
+        padding-top: 60px;
+    }
+}
+
+@media(max-width: 740px){
+    .homeContainer{
+        padding-top: 124px;
+    }
+}
+
+@media(max-width: 590px){
+    .homeContainer{
+        padding-top: 165px;
     }
 }
