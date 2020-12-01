@@ -103,7 +103,7 @@ class NavMenu extends Component{
 
   render(){
     return(
-      <span onLoad={console.log(this.props.location.pathname)}>
+      <span>
         <Link to="/" className="resp-block">
           <button className={this.state.classnameslist[0]} onClick={() => this.navSwitch(0)}>
             <img className="top-btn-img-home" src={homeIcon} alt="space saving furniture for small homes"/>
@@ -125,14 +125,14 @@ class NavMenu extends Component{
     );
   }
 }
-
 const WrappedNav = withRouter(NavMenu);
 
 class CollapsibleMenu extends Component{
   constructor(props){
     super(props);
     this.state = {
-      toggleClass: "coll-nav-container"
+      toggleClass: "coll-nav-container",
+      inProp: false
     }
 
     this.toggleCount = 0;
@@ -144,41 +144,37 @@ class CollapsibleMenu extends Component{
 
   componentDidMount(){
     window.addEventListener("click",(event)=>{
-      console.log(event.target);
       if(this.wrapperRef.current && !this.wrapperRef.current.contains(event.target)){
-        this.setState({
-          toggleClass: "coll-nav-container"
-        });
-        this.toggleCount = 0;
+        this.setState({inProp: true});
       }
     });
-  }
-
-  toggle = () =>{
-    this.setState({
-      toggleClass: (this.toggleCount == 0) ? this.state.toggleClass + " cond-display" : "coll-nav-container"
-    });
-    this.toggleCount = !this.toggleCount;
   }
 
   render(){
     return(
       <span className="coll-nav" ref={this.wrapperRef}>
-        <button className="header-button-base menu-button" onClick={this.toggle}>
+        <button className="header-button-base menu-button" onClick={()=>{this.setState({inProp: !this.state.inProp});}}>
           <img src={menuIcon} alt="Interior showroom design 303-1, Trichy Road Singanallur Coimbatore" className="map-icon hover-shake"/>
         </button>
-        <div className={this.state.toggleClass}>
-          <div className="menu-top">
-            <div className="menu-title">
-              Menu
+        <CSSTransition
+          in = {this.state.inProp}
+          timeout={50}
+          unmountOnExit
+          classNames="coll-menu-drop"
+        >
+          <div className={this.state.toggleClass}>
+            <div className="menu-top">
+              <div className="menu-title">
+                Menu
+              </div>
+              <div className="menu-title menu-close" onClick={()=>{this.setState({inProp: false});}}>X</div>
             </div>
-            <div className="menu-title menu-close" onClick={this.toggle}>X</div>
+            <WrappedNav ref={this.navRef}/>
+            <CustomMenu ref={this.customRef} className="mx-2-5 header-button-base hover-flip resp-block">
+              Customized Interiors<img className="top-btn-arrow" src={dropArrow} alt=""/> 
+            </CustomMenu>
           </div>
-          <WrappedNav ref={this.navRef}/>
-          <CustomMenu ref={this.customRef} className="mx-2-5 header-button-base hover-flip resp-block">
-            Customized Interiors<img className="top-btn-arrow" src={dropArrow} alt=""/> 
-          </CustomMenu>
-        </div>
+        </CSSTransition>
       </span>
     );
   }

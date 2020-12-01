@@ -315,11 +315,9 @@
 }
 
 .coll-nav-container{
-    display: none;
     position: absolute;
-    background-color: #57a2db;
-    top: 0;
-    left: 0;
+    top: 120px;
+    background-color: #70b1e4;
     padding-top: 15px;
     padding-bottom: 30px;
     padding-right: 15px;
@@ -391,10 +389,6 @@
         margin-right: 30px;
     }
 
-    .cond-display{
-        display: block;
-    }
-
     .header-container{
         height: 77px;
     }
@@ -453,4 +447,63 @@
     .header-container{
         height: 174px;
     }
+
+    .menu-drop-internal{
+        height: 350px;
+        width: 260px;
+        padding: 5px 30px;
+    }
+
+    .menu-drop-buttons-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start!important;
+        align-items: flex-start;
+    }
+
+    .btn-sub-nav{
+        display: block!important;
+    }
+
+    .coll-nav-container{
+        top: 170px;
+    }
+}
+
+a:link{
+    text-decoration: none!important;
+}
+a:hover{
+    text-decoration: none!important;
+}
+
+.coll-menu-drop-enter {
+    left: -300px;
+    border-radius: 5px;
+    width: 260px;
+    transition: all 0.4s;
+}
+.coll-menu-drop-enter-active {
+    left: -300px;
+    border-radius: 5px;
+    width: 260px;
+    transition: all 0.4s;
+}
+.coll-menu-drop-enter-done {
+    left: 0px;
+    border-radius: 5px;
+    width: 260px;
+    transition: all 0.4s;
+}
+.coll-menu-drop-exit {
+    left: -250px;
+    border-radius: 5px;
+    width: 260px;
+    transition: all 0.4s;
+}
+.coll-menu-drop-exit-active {
+    left: -300px;
+    border-radius: 5px;
+    width: 260px;
+    transition: all 0.4s;
 }
