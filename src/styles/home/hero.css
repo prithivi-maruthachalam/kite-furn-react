@@ -57,7 +57,6 @@
 }
 
 .hero-space-image-door{
-    height: 660px;
     width: auto;
     opacity: 1;
     position: absolute;
@@ -77,7 +76,6 @@
     position: absolute;
     z-index: 69;
 
-    height: 785px;
     left: 35px;
     top: -5px;
 
@@ -184,17 +182,6 @@
         height: 700px;
     }
 
-    .hero-space-image-door{
-        height: 600px;
-        left: 60%;
-        top: 60px;
-    }
-    
-    .hero-space-image-door2{
-        height: 785px;
-        left: 35px;
-        top: -5px;
-    }
 
     @keyframes door-anim {
         0% {
@@ -237,5 +224,163 @@
 
     .hero-base-2{
         height: 240px;
+    }
+}
+
+@media(max-width: 1435px){
+    .hero-text{
+        font-size: 110px;
+        transition: all 0.4s;
+    }
+
+    .hero-base{
+        height: 450px;
+    }
+
+    .content{
+        font-size: 19px;
+    }
+
+    .content-container{
+        width: 600px;
+    }
+
+    .content-title{
+        font-size: 25px!important;
+    }
+
+    .btn-explore{
+        margin-top: 0px;
+        font-size: 25px!important;
+    }
+
+    .btn-img{
+        display: none;
+    }
+
+    .hero-space-image{
+        height: 550px;
+    }
+
+    @keyframes door-anim {
+        0% {
+            height: 465px;
+            left: 60%;
+            top: 40px;
+        }
+
+        50% {
+            height: 525px;
+            left: 23%;
+            top: 10px;
+        }
+
+        100% {
+            height: 465px;
+            left: 60%;
+            top: 40px;
+        }
+    }
+    @keyframes door-anim2 {
+        0% {
+            height: 545px;
+            left: 35px;
+            top: 0px;
+        }
+
+        50% {
+            height: 470px;
+            left: 50%;
+            top: 35px;
+        }
+
+        100% {
+            height: 545px;
+            left: 35px;
+            top: 0px;
+        }
+    }
+
+    .hero-base-2{
+        height: 210px;
+    }
+}
+
+@media(max-width: 1215px){
+    .hero-text{
+        font-size: 90px;
+        transition: all 0.4s;
+    }
+
+    .hero-base{
+        height: 380px;
+    }
+
+    .content{
+        font-size: 17.5px;
+    }
+
+    .content-container{
+        width: 470px;
+    }
+
+    .content-title{
+        font-size: 23px!important;
+    }
+
+    .btn-explore{
+        margin-top: -5px;
+        font-size: 23px!important;
+    }
+
+    .btn-img{
+        display: none;
+    }
+
+    .hero-space-image{
+        height: 500px;
+    }
+
+    @keyframes door-anim {
+        0% {
+            height: 415px;
+            left: 60%;
+            top: 40px;
+        }
+
+        50% {
+            height: 475px;
+            left: 23%;
+            top: 10px;
+        }
+
+        100% {
+            height: 415px;
+            left: 60%;
+            top: 40px;
+        }
+    }
+    @keyframes door-anim2 {
+        0% {
+            height: 495px;
+            left: 35px;
+            top: 0px;
+        }
+
+        50% {
+            height: 425px;
+            left: 50%;
+            top: 35px;
+        }
+
+        100% {
+            height: 495px;
+            left: 35px;
+            top: 0px;
+        }
+    }
+
+    .hero-base-2{
+        height: 220px;
     }
 }
