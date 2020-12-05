@@ -24,6 +24,7 @@ class Hero extends Component{
                     </div>
                 
                     <div className="hero-image-bg-right text-right">
+                        <div className="hero-text-mobile">SPACE SAVING STORAGE</div>
                         <div className="hero-text">SPACE</div>
                         <div className="hero-text">SAVING</div>
                         <div className="hero-text">STORAGE</div>
