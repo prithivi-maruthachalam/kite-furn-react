@@ -37,7 +37,7 @@ class Hero extends Component{
                     </div>
                 
                 </div>
-                <div className="hero-base-2 text-right">
+                <div className="hero-base-2">
                     <div className="content-container">
                         <h2 className="content-title">
                             More Space, Inside and Out.

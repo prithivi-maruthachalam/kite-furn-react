@@ -143,6 +143,7 @@
     background-image: linear-gradient(to left, #f1f1f1, #ffffff);
     padding: 27px 40px;
     height: 280px;
+    text-align: right;
 }
 
 .content-container{
@@ -560,7 +561,7 @@
 
 @media(max-width: 450px){
     .hero-image-bg-left{
-        top: 50px;
+        top: 60px;
         left: -200px;
     }
 
@@ -605,6 +606,20 @@
             left: 35px;
             top: 0px;
         }
+    }
+    .btn-explore{
+        margin-top: 5px;
+    }
+    .content-container{
+        width: 100%;
+    }
+    .hero-base{
+        height: 300px;
+    }
+    .hero-base-2{
+        height: 290px;
+        padding: 80px 20px 20px 20px;
+        text-align: center;
     }
 }
 /*NOTE: Phone is close to 390px width*/
