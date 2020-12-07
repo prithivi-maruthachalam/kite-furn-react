@@ -39,7 +39,11 @@ class Hero2 extends Component{
                     <div className="bed-text-container text-left">
                         <div className="bed-text-top">
                             <div>SLEEP <span className="bed-lowlight">&amp;</span></div>
-                            <div className="respM">STORAGE</div>
+                            <div>STORAGE</div>
+                        </div>
+                        <div className="bed-text-top resp-show">
+                            <div>STORAGE <span className="bed-lowlight">&amp;</span></div>
+                            <div>SLEEP</div>
                         </div>
                         <div className="bed-text-subtop">
                             Sleep on and store in
