@@ -13,7 +13,7 @@ class Hero2 extends Component{
     render(){
         return(
             <div className="fluid-container hero2-base">
-                <div className="hero2-A d-inline-block">
+                <div className="hero2-A">
                     <img src={stairs} className="img-stairs" alt="modern stairs custom design beautiful interior design end-to end interior solutions customised staircases " />
                     
                     <div className="stair-text-container text-right">
@@ -35,11 +35,11 @@ class Hero2 extends Component{
                     
                 </div>
 
-                <div className="hero2-B d-inline-block">
+                <div className="hero2-B">
                     <div className="bed-text-container text-left">
                         <div className="bed-text-top">
                             <div>SLEEP <span className="bed-lowlight">&amp;</span></div>
-                            <div>STORAGE</div>
+                            <div className="respM">STORAGE</div>
                         </div>
                         <div className="bed-text-subtop">
                             Sleep on and store in

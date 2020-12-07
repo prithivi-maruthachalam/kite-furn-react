@@ -10,12 +10,14 @@
     width: 47%;
     background-color: rgb(240, 240, 240);
     position: relative;
+    display: inline-block;
 }
 
 .hero2-B{
     height: 100%;
     width: 53%;
     position: relative;
+    display: inline-block;
 }
 
 .stair-text-container{
@@ -155,5 +157,65 @@
 .bed-lowlight{
     color: #dddddd;
     opacity: 0.5;
+}
+
+@media(max-width:1895px){
+    .bedFade{
+        top: 73px;
+        right: -20px;
+        height: 500px;
+    }
+}
+
+@media(max-width:1770px){
+    .bedFade{
+        top: 85px;
+        right: -20px;
+        height: 550px;
+    }
+
+    .bed-text-top{
+        font-size: 85px!important;
+    }
+
+    .bed-text-top > div{
+        display: inline-block;
+    }
+
+    .respM{
+        margin-left: 20px;
+    }
+
+    .bed-text-content{
+        margin-top: 60px;
+        width: 350px;
+    }
+}
+
+@media(max-width:1620px){
+    .bedFade{
+        top: 8vw;
+        right: -20px;
+        height: 32vw;
+    }
+}
+
+@media(max-width: 1500px){
+    .hero2-A{
+        display: block;
+        width: 100%;
+        height: 50%;
+    }
+
+    .hero2-B{
+        display: block;
+        width: 100%;
+        height: 50%;
+    }
+
+    .hero2-base{
+        height: 1260px;
+        display: block;
+    }
 }
 
