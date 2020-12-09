@@ -25,6 +25,7 @@
     right: 20px;
     top: 40px;
     z-index: 40;
+    text-align: right;
 }
 
 .stair-text-content{
@@ -188,7 +189,7 @@
 @media(max-width: 1770px){
     .img-stairs{
         height: 620px;
-        left: -15px;
+        left: 0px;
         top: 0px;
     }
 
@@ -208,7 +209,7 @@
 
 @media(max-width: 1670px){
     .img-stairs{
-        left: -30px;
+        left: 0px;
     }
 
     .stair-text-content{
@@ -218,6 +219,45 @@
 
     .btn-stairs{
         margin-top: 5px;
+    }
+}
+
+@media(max-width: 850px){
+    .content-stair-top{
+        font-size: 80px!important;
+        margin-top: -15px;
+    }
+
+    .content-stair-bottom-container{
+        font-size: 35px!important;
+        padding-top: 25px;
+    }
+
+    .img-stairs{
+        height: 500px;
+    }
+
+    .hero2-A{
+        height: 590px;
+    }
+}
+
+@media(max-width: 670px){
+    .stair-text-container{
+        text-align: center;
+    }
+
+    .content-stair-bottom-container{
+        text-align: right;
+        font-size: 30px!important;
+    }
+
+    .content-stair-top{
+        font-size: 65px!important;
+    }
+
+    .img-stairs{
+        top: 60px;
     }
 }
 
@@ -299,4 +339,8 @@
         width: 100%;
         height: 730px;
     }
+}
+
+@media(max-width: 850px){
+
 }

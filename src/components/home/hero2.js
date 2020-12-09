@@ -16,7 +16,7 @@ class Hero2 extends Component{
                 <div className="hero2-A">
                     <img src={stairs} className="img-stairs" alt="modern stairs custom design beautiful interior design end-to end interior solutions customised staircases " />
                     
-                    <div className="stair-text-container text-right">
+                    <div className="stair-text-container">
                         <div className="content-stair-top">STAIRCASES</div>
                         <div className="content-stair-bottom-container">
                             <div>LOW MAINTENANCE</div>
