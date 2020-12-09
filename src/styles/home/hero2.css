@@ -261,14 +261,6 @@
 
 }
 
-@media(max-width:1620px){
-    .bedFade{
-        //top: 8vw;
-        //right: -20px;
-        //height: 32vw;
-    }
-}
-
 @media(max-width: 1500px){
     .bedFade{
         position: absolute;
