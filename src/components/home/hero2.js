@@ -25,12 +25,13 @@ class Hero2 extends Component{
                         </div>
                         
                         <button className="btn btn-light btn-stairs">View More</button>
+                    </div>
 
-                        <div className="stair-text-content">
+
+                    <div className="stair-text-content">
                                 Fully customizable staircases for every home.
                                 We can even add them to your old staircase.
                                 Improved lighting, more space and the glass just looks so lovely!
-                        </div>
                     </div>
                     
                 </div>
