@@ -31,9 +31,9 @@ class Hero2 extends Component{
 
 
                     <div className="stair-text-content">
-                                Fully customizable staircases for every home.
-                                We can even add them to your old staircase.
-                                Improved lighting, more space and the glass just looks so lovely!
+                        Fully customizable staircases for every home.
+                        We can even add them to your old staircase.
+                        Improved lighting, more space and the glass just looks so lovely!
                     </div>
                     
                 </div>
@@ -53,12 +53,11 @@ class Hero2 extends Component{
                         </div>
                         
                         <button className="btn btn-light btn-bed">Explore</button>
-
-                        <div className="bed-text-content">
-                            The hydraulics make it easy to lift even without having
-                            to remove the mattress. You can now use the space below the 
-                            cot to keep extra pillows, blankets and anything else you want.
-                        </div>
+                    </div>
+                    <div className="bed-text-content">
+                        The hydraulics make it easy to lift even without having
+                        to remove the mattress. You can now use the space below the 
+                        cot to keep extra pillows, blankets and anything else you want.
                     </div>
 
                     <CrossfadeLoop
