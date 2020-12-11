@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import CrossfadeLoop from '../utils/fadeLoop.js';
 
 import stairs from '../../media/images/stairs/stairs3.png';
+import stairs2 from '../../media/images/stairs/stairs4.png';
 import bedBase from '../../media/images/bed_anim/bedBase.png';
 import bedlift from '../../media/images/bed_anim/bedLift.png';
 
@@ -15,7 +16,8 @@ class Hero2 extends Component{
             <div className="fluid-container hero2-base">
                 <div className="hero2-A">
                     <img src={stairs} className="img-stairs" alt="modern stairs custom design beautiful interior design end-to end interior solutions customised staircases " />
-                    
+                    <img src={stairs2} className="img-stairs stairDisp" alt="modern stairs custom design beautiful interior design end-to end interior solutions customised staircases " />
+
                     <div className="stair-text-container">
                         <div className="content-stair-top">STAIRCASES</div>
                         <div className="content-stair-bottom-container">

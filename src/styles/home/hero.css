@@ -557,6 +557,10 @@
     .hero-base{
         height: 200px;
     }
+
+    .hero-base-2{
+        height: 280px;
+    }
 }
 
 @media(max-width: 550px){

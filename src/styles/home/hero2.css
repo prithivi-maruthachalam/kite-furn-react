@@ -71,6 +71,10 @@
     top: 0px;
 }
 
+.stairDisp{
+    display: none;
+}
+
 .btn-stairs{
     padding: 5px 30px!important;
     font-size: 25px!important;
@@ -100,7 +104,6 @@
     height: 570px;
     width: auto;
 }
-
 
 .bed-text-container{
     position: absolute;
@@ -271,19 +274,87 @@
 
     .stair-text-content{
         text-align: center;
-        position: absolute;
         margin: 0;
-        bottom: 20px;
+        bottom: 30px;
         left: 0;
         right: 0;
-        padding: 0 15px;
+        padding: 0 20px;
         width: 100%;
     }
 
     .hero2-A{
-        height: 730px;
+        height: 715px;
+    }
+
+    .img-stairs{
+        display: none;
+    }
+
+    .stairDisp{
+        display: block;
     }
 }
+
+@media(max-width: 570px){
+    .img-stairs{
+        top: 100px;
+        left: -20px;
+        height: 500px;
+    }
+
+    .hero2-A{
+        height: 795px;
+    }
+
+    .stair-text-container{
+        text-align: right;
+        top: 40px;
+        right: 0px;
+        left: 0px;
+    }
+
+    .content-stair-top{
+        font-size: 60px!important;
+        text-align: right;
+        padding-right: 20px;
+    }
+
+    .content-stair-bottom-container{
+        margin-right: 20px;
+    }
+
+    .btn-stairs{
+        margin-right: 20px;
+        padding: 6px 20px!important;
+        font-size: 22px!important;
+        margin-top: -5px;
+    }
+}
+
+@media(max-width: 425px){
+    .content-stair-top{
+        font-size: 15vw!important;
+        text-align: center;
+        padding: 0;
+    }
+
+    .content-stair-bottom-container{
+        font-size: 7vw!important;
+    }
+
+    .btn-stairs{
+        font-size: 5vw!important;
+    }
+
+    .hero2-A{
+        height: 203vw;
+    }
+
+    .img-stairs{
+        height: 120vw;
+    }
+}
+
 
 
 /*Breakpoints for the Bed section*/
