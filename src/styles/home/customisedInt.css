@@ -1,4 +1,3 @@
-
 .customisedInt-base{
     background-image: linear-gradient(to left,#8066665b, #6e645f3f);
     width: 100%;
@@ -7,6 +6,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 15px;
+    justify-content: space-between;
 }
 
 .custom-head{
@@ -26,7 +26,6 @@
     grid-gap: 20px;
     padding: 20px;
 
-    margin-left: auto;
 }
 
 .grid-item {
@@ -55,8 +54,6 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.788));
 }
 
-
-
 .custom-title{
     color: #5d7680;
     font-family: 'Roboto', sans-serif;
@@ -70,7 +67,6 @@
 .custom-title > div >.highlight{
     color: #609b9b;
 }
-
 
 .custom-subtag{
     color: #567272;
@@ -128,3 +124,4 @@
     background-color: #4b859b!important;
     color: #e6dfd6!important;
 }
+
