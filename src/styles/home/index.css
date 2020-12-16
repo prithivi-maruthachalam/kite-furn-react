@@ -1,5 +1,6 @@
 .homeContainer{
     padding-top: 77px;
+    width: 100%;
 }
 
 @media(max-width:1490px){

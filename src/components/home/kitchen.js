@@ -20,7 +20,6 @@ class CustomisedInt extends Component{
                     <div className="kitchen-content">
                         Here's a look at our functional, yet insanely sleek kitchens.
                         They're designed to fit your tastes &amp; crafted to perfection.
-                        More than just a kitchen
                     </div>
                     <button className="btn-kitchen">View More</button>
                 </div>

@@ -1,18 +1,18 @@
 .kitchen-base{
-    background-color: #57575734;
+    background-color: #505050;
     width: 100%;
-    height: 450px;
+    height: 470px;
+    display: flex;
+    justify-content: space-between;
     border-bottom: 1px solid #e7e7e6;
     position: relative;
 }
 
 .kitchen-A{
     height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
     padding-top: 40px;
     padding-left: 35px;
+    padding-bottom: 40px;
 }
 
 .mr-img{
@@ -20,7 +20,7 @@
 }
 
 .kitchen-img{
-    height: 370px;
+    height: 100%;
     width: auto;
     float: left;
     border-radius: 3px;
@@ -29,12 +29,10 @@
 .kitchen-B{
     width: 37%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
 
-    padding-top: 38px;
+    padding-top: 25px;
     padding-right: 38px;
+    padding-bottom: 25px;
 }
 
 .kitchen-title{
@@ -51,7 +49,7 @@
     font-size: 25px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 5px;
     background-color: #f1f1f1;
     border: none!important;
@@ -67,8 +65,31 @@
 .kitchen-content{
     padding-top:30px;
     padding-bottom: 20px;
-    font-size: 17.5px;
-    font-weight: 400;;
-    font-family: 'Open Sans', sans-serif;
-    color: #666161; 
+    font-size: 23px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff; 
+}
+
+
+
+/*Breakpoints*/
+/*Offset 170px*/
+@media(max-width: 1968px){
+    .kitchen-content{
+        max-width: 33%;
+        position: absolute;
+        right: 20px;
+        margin-top: 5px;
+    }
+
+    .btn-kitchen{
+        margin-top: 150px;
+    }
+}
+
+@media(max-width: 1889px){
+    .kitchen-content{
+        color: #6c96db;
+    }
 }
