@@ -25,7 +25,6 @@
     grid-gap: 20px;
     padding: 20px;
     padding-left: 50px;
-
 }
 
 .grid-item {
@@ -285,7 +284,6 @@
     }
 }
 
-/*93px offset*/
 @media(max-width: 930px){
     .custom-text{
         font-size: 20px!important;
@@ -296,13 +294,13 @@
     }
 }
 
-@media(max-width: 890px){
+@media(max-width: 1020px){
     .custom-grid{
         grid-template-columns: auto auto;
         width: 100%;
         grid-gap: 40px;
         padding: 30px;
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     .custom-head{
@@ -317,11 +315,11 @@
     }
 
     .custom-title{
-        font-size: 7vw!important;
+        font-size: 7.5vw!important;
     }
 
     .custom-subtag{
-        width: 50%;
+        width: 45%;
         position: absolute;
         top: 5px;
         right: 20px;
@@ -333,7 +331,7 @@
         text-align: right;
         width: 50%;
         position: absolute;
-        top: 155px;
+        top: 175px;
         right: 30px;
     }
 
@@ -346,9 +344,15 @@
     }
 }
 
+@media(max-width: 845px){
+    .custom-grid{
+        margin-top: 30px;
+    }
+}
+
 @media(max-width: 816px){
     .custom-text{
-        top: 165px;
+        top: 175px;
     }
 
     .custom-grid{
@@ -356,7 +360,8 @@
     }
 }
 
-@media(max-width: 760px){
+
+@media(max-width: 780px){
     .custom-text{
         position: relative;
         top: 0;
