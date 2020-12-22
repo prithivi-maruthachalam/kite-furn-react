@@ -1,31 +1,58 @@
-# Razzle x React Router
-////
+# Website for KiteFurn
 
-## How to use
+### Built using React and Razzle for Server Side Rendering
+   
 
-<!-- START install generated instructions please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN yarn update-examples TO UPDATE -->Create and start the example:
+## For Contributors
+- Pages are organised into individual folders inside components/
+- Each page has an index file where all components in that page ar imported
+- Write styles in individual files for each component and import the style only once in the corresponding component's file.
+- Write components as horizontal sections of a page, where each component is one horizontal strip (refer home page for more)
+- Create a new branch for each component
+- Refer exisitng code for the home page incase of any ambiguity regarding styling, sytax and project structure.
 
-```bash
-npx create-razzle-app --example with-react-router with-react-router
-
-cd with-react-router
-yarn start
+## Git workflow
+### Before starting work on a new component, do the following
+- ### Make sure you're in the master branch
 ```
-<!-- END install generated instructions please keep comment here to allow auto update -->
-
-This example can also be exported as a static website.
-
-To try it out:
-
-```bash
-yarn build
-yarn export
-yarn start:static
+git checkout master
 ```
 
-Then open up http://localhost:5000/ in your browser.
+- ### Create a new branch. Use the component name for the branch
+```
+git checkout -b <branch name>
+```
+#### The above command creates and switches to the new branch
 
-## Idea behind the example
+- ### Once you've made a few changes and it is time to commit
+```
+git add .
+git commit -m "Commit message"
+```
 
-This is a basic, bare-bones example of how to use Razzle and React Router.
+- ### Pushing for the first time. This is assuming that you've already set up the remote as origin
+```
+git push -u origin <branch name>
+```
+### If you havent set up the remote, first check if you have
+```
+git branch -r
+```
+### It should print something like this
+```
+origin/master
+```
+### If it does, you're good to go. If it doesn't then you'll have to create a remote
+```
+git remote add origin <url> master
+```
+
+### Once a remote is created, you can push using the command mentioned earlier
+```
+git push -u origin <branch name>
+```
+
+- ### from the next time onwards, you can push as you normally would
+```
+git push
+```
