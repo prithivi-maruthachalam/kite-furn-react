@@ -5,7 +5,7 @@
 
 ## For Contributors
 - Pages are organised into individual folders inside components/
-- Each page has an index file where all components in that page ar imported
+- Each page has an index file where all components in that page are imported
 - Write styles in individual files for each component and import the style only once in the corresponding component's file.
 - Write components as horizontal sections of a page, where each component is one horizontal strip (refer home page for more)
 - Create a new branch for each component
@@ -56,3 +56,26 @@ git push -u origin <branch name>
 ```
 git push
 ```
+
+
+## TODO
+### Work on 3 Primary sections
+- ### Customised Interiors
+    #### Order to be finalised later. Each of the following is one component. These components together will make a page 
+  - Eateries & Bakeries
+  - Glass Stairs
+  - Hotels
+  - Mantaps & Halls
+  - Offices
+  - Residence Interiors (Has link to Residence Interiors Page)
+  - Retail, Departmental Stores
+- ### Residence Interiors
+  - Bedroom Interiors
+  - Bedroom Sets
+  - Dining Spaces
+  - Glass Stairs
+  - Living Spaces
+  - Space Saving Cots
+  - Space Saving Wardrobes
+- ### Modular Kitchens (later)
+    #### Will be handled in a later phase of development
