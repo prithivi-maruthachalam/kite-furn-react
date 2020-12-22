@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import WIP from "../workInProgress";
 
-class ResidenceInteriors extends Component {
+class CustomInteriors extends Component {
   render(){
     return (
         <div className="fluid-container text-center">
@@ -12,4 +12,4 @@ class ResidenceInteriors extends Component {
   }
 }
 
-export default ResidenceInteriors;
+export default CustomInteriors;
