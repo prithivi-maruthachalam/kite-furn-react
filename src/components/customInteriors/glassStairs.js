@@ -10,22 +10,23 @@ class GlassStairs extends Component{
         return(
             <div className = "maindiv container-fluid">
                     <div className="row">
-                        <div className="col-sm-4 onlyimage">
+                        <div className="col-sm-4 onlyimage margin">
                             <img className="glassstairsimg1" src={glassstairs1} alt="glassstairs1"/>
                         </div>
-                        <div className="col-sm-8 onlyimage">
+                        <div className="col-sm-8 margin">
                             <div className = "bigboldtext">GLASS STAIRCASES</div>
                             <div className="row">
-                                <div className="col-sm-4 secondimage">
-                                <img className="glassstairsimg2" src={glassstairs2} alt="glassstairs2"/>
+                                <div className="col-sm-5 secondimage">
+                                    <img className="glassstairsimg2" src={glassstairs2} alt="glassstairs2"/>
                                 </div>
-                                <div className="col-sm-8 subtext">
+                                <div className="col-sm-7 subtext">
                                     <div className = "subtext1">blah blah blah b blah blah sbs subtext line</div>
                                     <div className = "subtext2">A bunch of text here blah blah blah.
                                         Oi lala lal blahA bunch of text hereblah blah blah.
                                         Oi lala lal blahxt here blah blah blah. 
                                         Oi lala lal blahA bunch of text here blahblah blah.
-                                        Oi lala lal blah</div>
+                                        Oi lala lal blah
+                                    </div>
                                 </div>
                             </div>
                         </div>
