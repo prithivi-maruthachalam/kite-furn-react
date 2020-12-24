@@ -1,6 +1,6 @@
 .maindiv {
   display: flex;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 30px;
   background-color: #eceeee;
 }
@@ -19,6 +19,7 @@
   color: #3e7e78;
   position: absolute;
   right: 10px;
+  top: 133px;
 }
 .subtext1 {
   font-size: 40px;
@@ -28,6 +29,7 @@
   color: #89b3b0;
   line-height: 1.2;
   padding-left: 40px;
+  padding-top: 20px;
   padding-right: 35px;
 }
 .subtext2 {
@@ -37,7 +39,7 @@
   text-align: right;
   color: #727474;
   padding-left: 40px;
-  padding-top: 30px;
+  padding-top: 35px;
   padding-right: 35px;
 }
 .texts {

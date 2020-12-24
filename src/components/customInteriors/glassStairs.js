@@ -19,8 +19,8 @@ class GlassStairs extends Component{
                         </div>                       
                     </div>
                 </div>
-                <div className = "bigboldtext">GLASS STAIRCASES</div>
                 <div className ="texts">
+                    <div className = "bigboldtext">GLASS STAIRCASES</div>
                     <div className = "subtext1">
                         <div>blah blah blah b</div>
                         <div>blah blah sbs</div>
