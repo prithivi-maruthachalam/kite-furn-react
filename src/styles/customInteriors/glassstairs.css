@@ -1,23 +1,12 @@
 .maindiv {
-  display: grid;
-  grid-template-columns: 30% 70%;
+  display: flex;
   margin-top: 150px;
+}
+.images {
+  display: grid;
+  grid-template-columns: 50% 50%;
   column-gap: 25px;
-}
-.col2 {
-  display: grid;
-  grid-template-rows: 30% 70%;
-  row-gap: 10px;
-}
-.subcolumns {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  column-gap: 25px;
-}
-.subcol2 {
-  display: grid;
-  grid-template-rows: 50% 50%;
-  padding-right: 20px;
+  align-items: flex-end;
 }
 .bigboldtext {
   font-size: 95px;
@@ -33,6 +22,7 @@
   text-align: right;
   color: #89b3b0;
   line-height: 1.2;
+  position: relative;
 }
 .subtext2 {
   font-size: 24px;
@@ -48,7 +38,4 @@
 .gsimg1 {
   min-height: 100%;
   border-radius: 3px;
-}
-.col1 {
-  padding-left: 20px;
 }
