@@ -2,46 +2,53 @@
   display: grid;
   grid-template-columns: 30% 70%;
   margin-top: 150px;
+  column-gap: 25px;
 }
 .col2 {
   display: grid;
   grid-template-rows: 30% 70%;
+  row-gap: 10px;
 }
 .subcolumns {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 30% 70%;
+  column-gap: 25px;
 }
 .subcol2 {
   display: grid;
-  grid-template-rows: 40% 60%;
+  grid-template-rows: 50% 50%;
+  padding-right: 20px;
 }
 .bigboldtext {
-  font-size: 100px;
+  font-size: 95px;
   font-family: "Open Sans", sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   text-align: right;
   color: #3e7e78;
-  padding-right: 40px;
 }
 .subtext1 {
-  font-size: 45px;
+  font-size: 52px;
   font-family: "Open Sans", sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   text-align: right;
   color: #89b3b0;
-  padding-right: 40px;
+  line-height: 1.2;
 }
 .subtext2 {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   text-align: right;
-  color: #595a5a;
-  padding-right: 40px;
-  padding-top: 20px;
+  color: #727474;
 }
 .gsimg2 {
   min-height: 100%;
   border-radius: 3px;
-  padding-right: 20px;
+}
+.gsimg1 {
+  min-height: 100%;
+  border-radius: 3px;
+}
+.col1 {
+  padding-left: 20px;
 }

@@ -9,14 +9,16 @@ class GlassStairs extends Component{
     render(){
         return(
             <div className = "maindiv">
-                <div className = "col1"></div>
+                <div className = "col1">
+                <img className="gsimg1 img-fluid" src={glassstairs1} alt="glassstairs image 1" />
+                </div>
                 <div className = "col2">
                     <div className = "headerrow">
-                        <div className = "bigboldtext">GLASS STAIRS</div>
+                        <div className = "bigboldtext">GLASS STAIRCASES</div>
                     </div>
                     <div className = "subcolumns">
                         <div className = "subcol1">
-                        <img className="gsimg2 img-fluid" src={glassstairs2} alt="glassstairs image 2" />
+                            <img className="gsimg2 img-fluid" src={glassstairs2} alt="glassstairs image 2" />
                         </div>
                         <div className = "subcol2">
                             <div className = "subtext1">
