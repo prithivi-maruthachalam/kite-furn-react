@@ -1,51 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700;800&display=swap");
 .maindiv {
-  background-color: #f5efef;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin-top: 150px;
 }
-.glassstairsimg1 {
-  height: 580px;
-  width: 350px;
-  border-radius: 2%;
+.col2 {
+  display: grid;
+  grid-template-rows: 40% 60%;
 }
-.glassstairsimg2 {
-  height: 475px;
-  width: 320px;
-  border-radius: 2%;
-}
-.onlyimage {
-  padding-top: 35px;
-  padding-bottom: 40px;
-}
-.secondimage {
-  padding-right: 40px;
-  padding-top: 20px;
-}
-.margin {
-  margin-top: 150px !important;
+.subcolumns {
+  display: grid;
+  grid-template-columns: 40% 60%;
 }
 .bigboldtext {
-  font-family: "Open Sans", sans-serif;
   font-size: 80px;
-  font-weight: 700;
-  text-align: center;
-  color: #3e7e78;
-}
-.subtext1 {
   font-family: "Open Sans", sans-serif;
-  font-size: 50px;
-  font-weight: 700;
+  font-weight: 800;
   text-align: right;
-  color: #89b3b0;
-  padding-right: 45px;
-  line-height: 1.3;
-}
-.subtext2 {
-  font-family: "Roboto", sans-serif;
-  color: #626464;
-  text-align: right;
-  padding-right: 45px;
-  font-size: 26px;
-  padding-top: 40px;
-  margin-bottom: -10rem;
+  color: #3e7e78;
+  padding-right: 30px;
 }
