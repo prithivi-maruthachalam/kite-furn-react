@@ -16,7 +16,19 @@ class GlassStairs extends Component{
                     </div>
                     <div className = "subcolumns">
                         <div className = "subcol1"></div>
-                        <div className = "subcol2"></div>
+                        <div className = "subcol2">
+                            <div className = "subtext1">
+                            blah blah blah b blah blah sbs subtext line
+                            </div>
+                            <div className = "subtext2">
+                            A bunch of text here blah blah blah. 
+                            Oi lala lal blahA bunch of text here 
+                            blah blah blah. Oi lala lal blahA
+                            bunch of text here blah blah blah. Oi
+                            lala lal blahA bunch of text here blah 
+                            blah blah. Oi lala lal blah
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

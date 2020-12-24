@@ -5,17 +5,38 @@
 }
 .col2 {
   display: grid;
-  grid-template-rows: 40% 60%;
+  grid-template-rows: 30% 70%;
 }
 .subcolumns {
   display: grid;
   grid-template-columns: 40% 60%;
 }
+.subcol2 {
+  display: grid;
+  grid-template-rows: 40% 60%;
+}
 .bigboldtext {
-  font-size: 80px;
+  font-size: 100px;
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
   text-align: right;
   color: #3e7e78;
-  padding-right: 30px;
+  padding-right: 40px;
+}
+.subtext1 {
+  font-size: 45px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  text-align: right;
+  color: #89b3b0;
+  padding-right: 40px;
+}
+.subtext2 {
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  text-align: right;
+  color: #747777;
+  padding-right: 40px;
+  padding-top: 20px;
 }
