@@ -34,9 +34,14 @@
 .subtext2 {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
-  font-weight: 800;
+  font-weight: 400;
   text-align: right;
-  color: #747777;
+  color: #595a5a;
   padding-right: 40px;
   padding-top: 20px;
+}
+.gsimg2 {
+  min-height: 100%;
+  border-radius: 3px;
+  padding-right: 20px;
 }

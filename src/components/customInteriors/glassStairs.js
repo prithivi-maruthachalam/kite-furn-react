@@ -15,7 +15,9 @@ class GlassStairs extends Component{
                         <div className = "bigboldtext">GLASS STAIRS</div>
                     </div>
                     <div className = "subcolumns">
-                        <div className = "subcol1"></div>
+                        <div className = "subcol1">
+                        <img className="gsimg2 img-fluid" src={glassstairs2} alt="glassstairs image 2" />
+                        </div>
                         <div className = "subcol2">
                             <div className = "subtext1">
                             blah blah blah b blah blah sbs subtext line
