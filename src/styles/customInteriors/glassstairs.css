@@ -14,6 +14,8 @@
   font-weight: 700;
   text-align: right;
   color: #3e7e78;
+  position: absolute;
+  right: 10px;
 }
 .subtext1 {
   font-size: 52px;
@@ -22,7 +24,8 @@
   text-align: right;
   color: #89b3b0;
   line-height: 1.2;
-  position: relative;
+  padding-left: 40px;
+  padding-right: 20px;
 }
 .subtext2 {
   font-size: 24px;
@@ -30,6 +33,12 @@
   font-weight: 400;
   text-align: right;
   color: #727474;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-right: 20px;
+}
+.texts {
+  padding-top: 150px;
 }
 .gsimg2 {
   min-height: 100%;
