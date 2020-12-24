@@ -21,7 +21,11 @@ class GlassStairs extends Component{
                 </div>
                 <div className = "bigboldtext">GLASS STAIRCASES</div>
                 <div className ="texts">
-                    <div className = "subtext1">blah blah blah b blah blah sbs subtext line</div>
+                    <div className = "subtext1">
+                        <div>blah blah blah b</div>
+                        <div>blah blah sbs</div>
+                        <div>subtext line</div>
+                    </div>
                     <div className = "subtext2">
                         A bunch of text here blah blah blah.
                         Oi lala lal blahA bunch of text here
