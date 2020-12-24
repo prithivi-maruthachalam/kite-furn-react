@@ -1,16 +1,16 @@
 .maindiv {
   display: flex;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 .images {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 400px 400px;
   column-gap: 25px;
-  align-items: flex-end;
-  padding-left: 20px;
+  align-items: end;
+  padding-left: 25px;
 }
 .bigboldtext {
-  font-size: 95px;
+  font-size: 90px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   text-align: right;
@@ -19,14 +19,14 @@
   right: 10px;
 }
 .subtext1 {
-  font-size: 60px;
+  font-size: 40px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   text-align: right;
   color: #89b3b0;
   line-height: 1.2;
   padding-left: 40px;
-  padding-right: 20px;
+  padding-right: 25px;
 }
 .subtext2 {
   font-size: 24px;
@@ -36,7 +36,7 @@
   color: #727474;
   padding-left: 40px;
   padding-top: 30px;
-  padding-right: 20px;
+  padding-right: 25px;
 }
 .texts {
   padding-top: 130px;
@@ -49,9 +49,6 @@
   min-height: 100%;
   border-radius: 3px;
 }
-.img1 {
-  height: 92%;
-}
-.img2 {
-  height: 68%;
+.image2 {
+  height: 70%;
 }
