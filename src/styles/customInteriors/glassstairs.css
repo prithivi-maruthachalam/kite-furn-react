@@ -9,7 +9,7 @@
   grid-template-columns: 400px 400px;
   column-gap: 25px;
   align-items: end;
-  padding-left: 25px;
+  padding-left: 35px;
 }
 .bigboldtext {
   font-size: 90px;
@@ -28,7 +28,7 @@
   color: #89b3b0;
   line-height: 1.2;
   padding-left: 40px;
-  padding-right: 25px;
+  padding-right: 35px;
 }
 .subtext2 {
   font-size: 24px;
@@ -38,7 +38,7 @@
   color: #727474;
   padding-left: 40px;
   padding-top: 30px;
-  padding-right: 25px;
+  padding-right: 35px;
 }
 .texts {
   padding-top: 130px;
