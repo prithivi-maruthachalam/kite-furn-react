@@ -15,7 +15,7 @@ class GlassStairs extends Component{
                     </div>
                     <div className = "img2">
                         <div  className = "image2">
-                            <img className="gsimg2 img-fluid" src={glassstairs2} alt="glassstairs image 2" />
+                            <img className="gsimg2 img-fluid" src={glassstairs1} alt="glassstairs image 2" />
                         </div>                       
                     </div>
                 </div>

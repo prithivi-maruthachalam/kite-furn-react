@@ -1,8 +1,9 @@
 .maindiv {
   display: flex;
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
   background-color: #eceeee;
+  position: relative;
 }
 .images {
   display: grid;
@@ -19,7 +20,8 @@
   color: #3e7e78;
   position: absolute;
   right: 10px;
-  top: 133px;
+  top: 30px;
+  padding-right: 20px;
 }
 .subtext1 {
   font-size: 40px;
