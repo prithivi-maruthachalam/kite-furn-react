@@ -39,7 +39,7 @@ class Header extends Component{
                       <PhoneButton employeeName="Sajeesh" employeeNumber="8940401792" className="mx-2-5 call-btn-pad call-btn-A"/>
                       <PhoneButton employeeName="Prabhu" employeeNumber="8940401793" className="mx-2-5 call-btn-pad call-btn-B"/>
                     </div>
-                    <Link exact to="/"><button className="btn btn-logo mx-2-5"/></Link>
+                    <Link to="/"><button className="btn btn-logo mx-2-5"/></Link>
                   </div>
               
               </div>
