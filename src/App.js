@@ -33,7 +33,7 @@ const App = () => {
           <CustomInteriors/>
         </Route>
 
-        <Route exact path="/">
+        <Route path="/">
           <Home/>
         </Route>
       </Switch>

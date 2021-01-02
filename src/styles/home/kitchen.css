@@ -279,3 +279,9 @@
     margin-top: 40px;
   }
 }
+
+@media(max-width: 430px){
+  .kitchen-title{
+    font-size: 15vw;
+  }
+}
