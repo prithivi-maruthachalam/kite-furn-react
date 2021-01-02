@@ -36,76 +36,88 @@ class Meet extends Component{
     render(){
         return(
             <div className="fluid-container meet-base">
-                <div className="meet-left">
-                    <div className="meet-head text-left">
-                        WHERE EFFICIENT PRODUCTION
-                        MEETS A PASSIONATE TEAM
-                    </div>
-                    
-                    <div className="meet-left-images">
-                        <img src={mb} className="meet-left-img" alt=""/>
-                        <img src={ma} className="meet-left-img mt-4" alt=""/>
-                    </div>
+                <div className="meet-head text-left">
+                    WHERE EFFICIENT PRODUCTION
+                    MEETS A PASSIONATE TEAM
                 </div>
+                <div className="flex-container d-flex">
+                    <div className="meet-left">
+                        <div className="meet-left-images">
+                            <div>
+                                <img src={mb} className="meet-left-img" id="img-L-A" alt=""/>
+                            </div>
+                            <div>
+                                <img src={ma} className="meet-left-img" alt="" />
+                            </div>
+                        </div>
+                    </div>
 
-                <div className="meet-right">
+                    <div className="meet-right">
                     <div className="meet-right-images">
-                        <div className="meet-right-grid">
-                            <div>
-                                <img src={customImages[0]} alt=""/>
-                                <div className="meet-img-card" id="mm_card">
-                                    <div className="person-name" id="mm">Maruthachalam</div>
-                                    <div className="person-desc">
-                                        Chief Architect &amp; Interior Designer  
-                                    </div>
+                        <div>
+                            <div className="img-container">
+                                <img src={customImages[0]} id="mm-img" alt="" />
+                            </div>
+                            <div className="meet-img-card" id="mm_card">
+                                <div className="person-name" id="mm">Maruthachalam</div>
+                                <div className="person-desc">
+                                    Chief Architect &amp; Interior Designer  
                                 </div>
                             </div>
-                            <div>
-                                <img src={customImages[1]} alt=""/>
-                                <div className="meet-img-card">
-                                    <div className="person-name">Vinoth</div>
-                                    <div className="person-desc">
-                                        Manager <br /> Production                               
-                                    </div>
-                                </div>
-                            </div>  
-                            <div>
-                                <img src={customImages[2]} alt=""/>
-                                <div className="meet-img-card">
-                                    <div className="person-name">Sajeesh</div>
-                                    <div className="person-desc">
-                                        Manager <br/> Projects
-                                    </div>
+                        </div>
+                        <div>
+                            <div className="img-container">
+                                <img src={customImages[1]} alt="" />
+                            </div>
+                            <div className="meet-img-card">
+                                <div className="person-name">Vinoth</div>
+                                <div className="person-desc">
+                                    Manager <br /> Production                               
                                 </div>
                             </div>
-                            <div>
-                                <img src={customImages[3]} alt=""/>
-                                <div className="meet-img-card">
-                                    <div className="person-name">Prabhu</div>
-                                    <div className="person-desc">
-                                        Production <br/> Co-ordinator
-                                    </div>
+                        </div>  
+                        <div>
+                            <div className="img-container">
+                                <img src={customImages[2]} id="sajeesh" alt="" />
+                            </div>
+                            <div className="meet-img-card">
+                                <div className="person-name">Sajeesh</div>
+                                <div className="person-desc">
+                                    Manager <br/> Projects
                                 </div>
                             </div>
-                            <div>
-                                <img src={customImages[4]} alt=""/>
-                                <div className="meet-img-card">
-                                    <div className="person-name">Harini</div>
-                                    <div className="person-desc">
-                                        CAD Designer
-                                    </div>
+                        </div>
+                        <div>
+                            <div className="img-container">
+                                <img src={customImages[3]} alt="" />
+                            </div>
+                            <div className="meet-img-card">
+                                <div className="person-name">Prabhu</div>
+                                <div className="person-desc">
+                                    Production <br/> Co-ordinator
                                 </div>
                             </div>
-                            <div>
-                                <div className="text-container text-left">
-                                    <div className="address-title">
-                                        Come experience our products in the exclusive showroom at Trichy Road
-                                    </div>
-                                    <div className="address-text">
-                                        303, Trichy Road, Singanallur, Coimbatore, Tamil Nadu, India - 641 005
-                                    </div>
+                        </div>
+                        <div>
+                            <div className="img-container" id="harini">
+                                <img src={customImages[4]} alt="" />
+                            </div>
+                            <div className="meet-img-card">
+                                <div className="person-name">Harini</div>
+                                <div className="person-desc">
+                                    CAD Designer
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="text-container">
+                                <div className="address-title">
+                                    Come experience our products in the exclusive showroom at Trichy Road
+                                </div>
+                                <div className="address-text">
+                                    303, Trichy Road, Singanallur, Coimbatore, Tamil Nadu, India - 641 005
+                                </div>
 
-                                </div>
                                 <div className="footer-buttons-container text-left">
                                     <a href="tel:9843023376" className="d-block">
                                         <button className="footer-phone hover-shake" style={{...btnClass}}>
@@ -121,8 +133,10 @@ class Meet extends Component{
                                     </a>
                                 </div>
                             </div>
+
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         );
