@@ -89,7 +89,7 @@ class Meet extends Component{
                         </div>
                         <div>
                             <div className="img-container">
-                                <img src={customImages[3]} alt="" />
+                                <img src={customImages[3]} id="prabhu" alt="" />
                             </div>
                             <div className="meet-img-card">
                                 <div className="person-name">Prabhu</div>

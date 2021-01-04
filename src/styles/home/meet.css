@@ -138,7 +138,7 @@
 
     position: absolute;
     left: -10px;
-    top: 10px;
+    top: 0;
 
     text-align: left;
 }
@@ -290,6 +290,19 @@
     .meet-head{
         font-size: 9vw!important;
     }
+
+    #prabhu{
+        object-position: 40% 0;
+    }
+
+    #sajeesh{
+        object-position: 30% 0;
+    }
+
+    .meet-right-images{
+        grid-template-rows: repeat(5, minmax(0, 1fr)) minmax(0, 0.7fr);
+        height: 2500px;
+    }
 }
 
 @media(max-width: 500px){
@@ -309,3 +322,50 @@
         width: 90%;
     }
 }
+
+@media(max-width:435px){
+    .meet-right-images {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-template-rows: repeat(5, minmax(0, 1fr)) minmax(0, 0.62fr);
+        height: 2900px;
+    }
+
+    #mm-img {
+        object-position: 45% 0;
+    }
+}
+
+@media(max-width: 420px){
+    .meet-right-images {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-template-rows: repeat(5, minmax(0, 1fr)) minmax(0, 0.85fr);
+        height: 2500px;
+    }
+
+    #mm{
+        font-size: 5.5vw;
+    }
+}
+
+@media(max-width: 360px){
+    .address-text , .address-title{
+        font-size: 5.5vw;
+    }
+
+    .meet-right-images{
+        grid-template-rows: repeat(5, minmax(0, 1fr)) minmax(0, 1.15fr);
+        height: 2200px;
+    }
+}
+
+@media(max-width: 345px){
+    .address-text, .address-title{
+        font-size: 6vw;
+    }
+
+    .meet-right-images {
+        grid-template-rows: repeat(5, minmax(0, 1fr)) minmax(0, 1.15fr);
+    }
+}
+
+/* TODO: Handle sizing after last breakpoint */
