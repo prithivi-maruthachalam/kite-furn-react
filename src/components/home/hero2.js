@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import CrossfadeLoop from '../utils/fadeLoop.js';
 
 import stairs from '../../media/images/stairs/stairs3.png';
@@ -26,7 +27,9 @@ class Hero2 extends Component{
                             <div>DURABLE</div>
                         </div>
                         
-                        <button className="btn btn-light btn-stairs">View More</button>
+                        <Link to="customInteriors">
+                            <button className="btn btn-light btn-stairs">View More</button>
+                        </Link>
                     </div>
 
 
@@ -55,7 +58,9 @@ class Hero2 extends Component{
                             Sleep on and store in
                         </div>
                         
-                        <button className="btn btn-light btn-bed">Explore</button>
+                        <Link to="customInteriors">
+                            <button className="btn btn-light btn-bed">Explore</button>
+                        </Link>
                     </div>
                     <div className="bed-text-content">
                         The hydraulics make it easy to lift even without having

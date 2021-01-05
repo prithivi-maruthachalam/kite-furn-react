@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 
 
 import arrow from '../../media/icons/right-arrow.png';
@@ -30,9 +31,11 @@ class Hero extends Component{
                         <div className="hero-text">STORAGE</div>
 
                         <div className="mt-4-5">
-                            <button className="btn btn-light btn-explore">
-                                Explore <img className="btn-img" src={arrow} alt="space saving furniture for small homes"/>
-                            </button>
+                            <Link to="/residenceInteriors">
+                                <button className="btn btn-light btn-explore">
+                                    Explore <img className="btn-img" src={arrow} alt="space saving furniture for small homes"/>
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 

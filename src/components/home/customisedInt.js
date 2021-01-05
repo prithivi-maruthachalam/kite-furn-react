@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import bedroomA from '../../media/images/custom/bedroomA.jpg';
 import bedroomB from '../../media/images/custom/bedroomB.jpg';
@@ -22,13 +23,27 @@ class CustomisedInt extends Component{
                     </div>
 
                     <div className="custom-subtag">
-                        <button className="btn-custom-types">Living spaces</button>
-                        <button className="btn-custom-types">Hotels</button>
-                        <button className="btn-custom-types">Bedrooms</button>
-                        <button className="btn-custom-types">Kitchens</button>
-                        <button className="btn-custom-types">Dining spaces</button>    
-                        <button className="btn-custom-types">Retail spaces</button>
-                        <button className="btn-custom-types">Eateries</button>
+                        <Link to="/customInteriors">
+                            <button className="btn-custom-types">Living spaces</button>
+                        </Link>
+                        <Link to="/customInteriors">
+                            <button className="btn-custom-types">Hotels</button>
+                        </Link>
+                        <Link to="/customInteriors">
+                            <button className="btn-custom-types">Bedrooms</button>
+                        </Link>
+                        <Link to="/customInteriors">
+                            <button className="btn-custom-types">Kitchens</button>
+                        </Link>
+                        <Link to="/customInteriors">
+                            <button className="btn-custom-types">Dining spaces</button>
+                        </Link>
+                        <Link to="/customInteriors">
+                            <button className="btn-custom-types">Retail spaces</button>
+                        </Link>
+                        <Link to="/customInteriors">
+                            <button className="btn-custom-types">Eateries</button>
+                        </Link>
                     </div>
 
                     <div className="custom-text">
@@ -36,7 +51,9 @@ class CustomisedInt extends Component{
                         requirements into incredibly aesthetic and functional designs.
                     </div>
 
-                    <button className="btn btn-light btn-custom-main">View More</button>
+                    <Link to="/customInteriors">
+                        <button className="btn btn-light btn-custom-main">View More</button>
+                    </Link>
                 </div>
 
                 <div className="custom-grid">

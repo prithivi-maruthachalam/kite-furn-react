@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import kitchenImageA from '../../media/images/kitchen/kitchen1.jpg';
 import kitchenImageB from '../../media/images/kitchen/kitchen2.jpg';
@@ -25,7 +26,9 @@ class CustomisedInt extends Component{
                         Here's a look at our functional, yet insanely sleek kitchens.
                         They're designed to fit your tastes &amp; crafted to perfection.
                     </div>
-                    <button className="btn-kitchen">View More</button>
+                    <Link to="/modularKitchens">
+                        <button className="btn-kitchen">View More</button>
+                    </Link>
                 </div>
             </div>
         );

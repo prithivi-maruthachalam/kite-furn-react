@@ -12,6 +12,8 @@ import PhoneButton from './utils/phoneNumber';
 import '../styles/animations.css';
 import '../styles/header.css';
 
+// TODO: Customized doesn't look pressed on navigation
+
 class Header extends Component{
     render(){
       return(
@@ -67,7 +69,7 @@ class NavMenu extends Component{
     this.pathsList = [
       "/",
       "/residenceInteriors",
-      "/modularkitchens"
+      "/modularKitchens"
     ]
 
   }
@@ -116,7 +118,7 @@ class NavMenu extends Component{
           </button>
         </Link>
 
-        <Link to="/modularkitchens" className="resp-block">
+        <Link to="/modularKitchens" className="resp-block">
           <button className={this.state.classnameslist[2]} onClick={() => this.navSwitch(2)}>
             Modular Kitchens
           </button>
