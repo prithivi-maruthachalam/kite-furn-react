@@ -23,13 +23,10 @@ class CrossfadeLoop extends Component{
     componentDidMount(){
         setInterval(
             () => {
-                if(this.state.op2 === "0"){
-                    this.setState({op1:"0"});
-                    this.setState({op2:"1"});
-                } else {
-                    this.setState({op2:"0"});
-                    this.setState({op1:"1"});
-                }
+                this.setState({
+                    op1: (this.state.op2 === "0") ? "0" : "1",
+                    op2: (this.state.op2 === "0") ? "1" : "0"
+                });
             } 
         ,this.props.interval)
     }
