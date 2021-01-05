@@ -12,7 +12,6 @@ import PhoneButton from './utils/phoneNumber';
 import '../styles/animations.css';
 import '../styles/header.css';
 
-// TODO: Customized doesn't look pressed on navigation
 
 class Header extends Component{
     render(){
@@ -22,9 +21,9 @@ class Header extends Component{
               <div className="col-head-box header-padding">
                 <div className="col-head header-left">
                   <WrappedNav/>
-                  <CustomMenu className="mx-2-5 header-button-base hover-flip">
+                  <CollapsibleCustomMenu className="mx-2-5 header-button-base hover-flip">
                     Customized Interiors<img className="top-btn-arrow" src={dropArrow} alt=""/> 
-                  </CustomMenu>
+                  </CollapsibleCustomMenu>
                 </div>
 
                   <div className="col-head header-right">
@@ -198,7 +197,7 @@ class CustomMenu extends Component{
       if (this.wrapperRef.current && !this.wrapperRef.current.contains(event.target)) {
         this.setState({
           inProp: false,
-          classNames: (this.props.className+" btn-nav-inactive")
+          classNames: (this.props.location.pathname == "/customInteriors") ? (this.props.className+" btn-nav-active") : (this.props.className+" btn-nav-inactive")
         });
       }
     });
@@ -230,14 +229,23 @@ class CustomMenu extends Component{
               <Link to="customInteriors">
                 <button className="btn btn-light btn-sub-nav" onClick={()=>{this.setState({inProp: false});}}>Hotel Interiors</button>
               </Link>
+
               <Link to="customInteriors">
                 <button className="btn btn-light btn-sub-nav" onClick={()=>{this.setState({inProp: false});}}>Bakeries</button>
               </Link>
+              
+              <Link to="customInteriors">
                 <button className="btn btn-light btn-sub-nav" onClick={()=>{this.setState({inProp: false});}}>Departmentals Stores</button>
+              </Link>
+              
               <Link to="customInteriors">  
                 <button className="btn btn-light btn-sub-nav" onClick={()=>{this.setState({inProp: false});}}>Banquet &#38; Meeting Halls</button>
               </Link>
-                <button className="btn btn-light btn-sub-nav" onClick={()=>{this.setState({inProp: false});}}>Offices</button>
+
+              <Link to="customInteriors">
+                <button className="btn btn-light btn-sub-nav" onClick={() => { this.setState({ inProp: false }); }}>Offices</button>
+              </Link>
+              
               <Link to="customInteriors">  
                 <button className="btn btn-light btn-sub-nav" onClick={()=>{this.setState({inProp: false});}}>View More</button>
               </Link>
@@ -249,5 +257,7 @@ class CustomMenu extends Component{
     );
   }
 }
+
+const CollapsibleCustomMenu = withRouter(CustomMenu);
 
 export default Header;
