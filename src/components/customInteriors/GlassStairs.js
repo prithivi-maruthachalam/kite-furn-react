@@ -1,38 +1,46 @@
 import React, {Component} from 'react';
 
-import glassstairs1 from '../../media/images/custominteriors/glassstairs/glassstairs1.jpg';
-import glassstairs2 from '../../media/images/custominteriors/glassstairs/glassstairs2.jpg';
+import imgA from '../../media/images/customInteriors/glassStairs/A.jpg';
+import imgB from '../../media/images/customInteriors/glassStairs/B.jpg';
 
-import '../../styles/customInteriors/glassstairs.css';
+import '../../styles/customInteriors/glassStairs.css';
 
 class GlassStairs extends Component{
     render(){
         return(
-            <div className = "maindiv">
-                <div className = "images">
-                    <div className = "img1">
-                        <img className="gsimg1 img-fluid" src={glassstairs1} alt="glassstairs image 1" />
+            <div className="fluid-container glassStairs-base">
+                <div className="glassStairsA">
+                    <div>
+                        <img className="glassStairs-img" src={imgA} alt="" />
+                        <img className="glassStairs-img-top" src={imgA} alt=""/>
                     </div>
-                    <div className = "img2">
-                        <div  className = "image2">
-                            <img className="gsimg2 img-fluid" src={glassstairs2} alt="glassstairs image 2" />
-                        </div>                       
+                    <div>
+                        <div className="imgB-container">
+                            <img className="glassStairs-img" src={imgB} alt="" />
+                            <img className="glassStairs-img-top" src={imgB} alt="" />
+                        </div>
                     </div>
                 </div>
-                <div className ="texts">
-                    <div className = "bigboldtext">GLASS STAIRCASES</div>
-                    <div className = "subtext1">
-                        <div>blah blah blah b</div>
-                        <div>blah blah sbs</div>
-                        <div>subtext line</div>
+                
+                <div className="glassStairsB">
+                    <div className="glassStairs-title">
+                        GLASS STAIRS
                     </div>
-                    <div className = "subtext2">
-                        A bunch of text here blah blah blah.
-                        Oi lala lal blahA bunch of text here
-                        blah blah blah. Oi lala lal blahA
-                        bunch of text here blah blah blah. Oi
-                        lala lal blahA bunch of text here blah
-                        blah blah. Oi lala lal blah
+
+                    <div className="glassStairs-subtitle">
+                        <div>Fully customisable</div>
+                        <div>Glass, wood and metal</div>
+                        <div>Starting from 20k</div>
+                    </div>
+
+                    <div className="glassStairs-content">
+                        Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do 
+                        eiusmod tempor incididunt ut labore 
+                        et dolore magna aliqua. Ut enim ad 
+                        minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea 
+                        commodo consequat.
                     </div>
                 </div>
             </div>

@@ -1,28 +1,28 @@
-.indexgs {
-  padding-top: 100px;
+.customInteriors-container {
+  padding-top: 77px;
   width: 100%;
 }
 
 @media(max-width:1490px) {
-  .indexgs {
-    padding-top: 130px;
+  .customInteriors-container {
+    padding-top: 127px;
   }
 }
 
 @media(max-width:870px) {
-  .indexgs {
-    padding-top: 90px;
+  .customInteriors-container {
+    padding-top: 60px;
   }
 }
 
 @media(max-width: 740px) {
-  .indexgs {
-    padding-top: 135px;
+  .customInteriors-container {
+    padding-top: 124px;
   }
 }
 
 @media(max-width: 590px) {
-  .indexgs {
-    padding-top: 180px;
+  .customInteriors-container {
+    padding-top: 165px;
   }
 }
