@@ -27,20 +27,22 @@ class GlassStairs extends Component{
                         GLASS STAIRS
                     </div>
 
-                    <div className="glassStairs-subtitle">
-                        <div>Fully customisable</div>
-                        <div>Glass, wood and metal</div>
-                        <div>Starting from 20k</div>
-                    </div>
+                    <div className="glassStairs-subContainer">
+                        <div className="glassStairs-subtitle">
+                            <div>Fully customisable</div>
+                            <div>Glass, wood and metal</div>
+                            <div>Starting from 20k</div>
+                        </div>
 
-                    <div className="glassStairs-content">
-                        Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit, sed do 
-                        eiusmod tempor incididunt ut labore 
-                        et dolore magna aliqua. Ut enim ad 
-                        minim veniam, quis nostrud exercitation 
-                        ullamco laboris nisi ut aliquip ex ea 
-                        commodo consequat.
+                        <div className="glassStairs-content">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit, sed do 
+                            eiusmod tempor incididunt ut labore 
+                            et dolore magna aliqua. Ut enim ad 
+                            minim veniam, quis nostrud exercitation 
+                            ullamco laboris nisi ut aliquip ex ea 
+                            commodo consequat.
+                        </div>
                     </div>
                 </div>
             </div>
