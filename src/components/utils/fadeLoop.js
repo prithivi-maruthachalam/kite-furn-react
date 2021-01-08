@@ -14,7 +14,6 @@ class CrossfadeLoop extends Component{
     constructor(props){
         super(props);
         this.state = {
-            images:this.props.src,
             op1: "1",
             op2: "0"
         }
@@ -36,12 +35,12 @@ class CrossfadeLoop extends Component{
             <div className={this.props.ClassValue} style={{
                 position:"relative"
             }}>
-                <img src={this.state.images[0]} style={{
+                <img src={this.props.src[0]} style={{
                     ...imgBaseStyle,
                     ...{transition: `all ${this.props.anim_duration/1000}s`, opacity:this.state.op1}
                 }} alt={this.props.alt}/>
                 
-                <img src={this.state.images[1]} style={{
+                <img src={this.props.src[1]} style={{
                     ...imgBaseStyle,
                     ...{transition: `all ${this.props.anim_duration/1000}s`, opacity:this.state.op2}
                 }} alt={this.props.alt}/>
