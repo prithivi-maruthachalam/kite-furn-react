@@ -428,24 +428,41 @@
 
 @media(max-width: 590px){
     .call-btn-B{
-        margin-top: 15px;
+        margin-top: 10px;
         display: block;
     }
 
-    .nav-container{
-        margin-top: 105px;
+    .header-padding{
+        padding-top: 7px;
+        padding-bottom: 40px;
     }
 
     .header-container{
-        height: 124px;
+        height: 50px;
     }
 
-    .nav-container{
-        margin-left: 3px;
+    .coll-nav{
+        position: absolute;
+        right: 45px;
     }
 
-    .header-container{
-        height: 174px;
+    .map-button{
+        position: absolute;
+        right: 5px;
+    }
+
+    .phn-container{
+        padding-right: 0px;
+        left: 0px;
+    }
+
+    .btn-logo{
+        right: -30px;
+        text-align: left!important;
+        margin-right: 0;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        background-position: -17px 0;
     }
 
     .menu-drop-internal{
