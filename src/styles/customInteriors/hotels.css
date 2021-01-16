@@ -1,0 +1,45 @@
+.hotels-base{
+    background-color: rgb(235, 238, 238);
+    padding-right: 45px;
+    padding-top: 30px;
+    position: relative;
+
+    margin-bottom: 100px;
+}
+
+.hotels-container{
+    background-color: #8a6638;
+    height: 660px;
+    padding: 30px 0;
+    padding-left: 30px;
+}
+
+.img-roomNumber{
+    position: absolute;
+    height: 690px;
+    right: 20px;
+    bottom: 0;
+}
+
+.img-hotelWelcome{
+    position: absolute;
+    height: 600px;
+}
+
+.hotels-grid-container{
+    display: grid;
+    grid-template-areas: 'header header imgA' 'imgB imgC imgD';
+    grid-gap: 20px;
+    height: 100%;
+}
+
+.hotels-grid-container > div {
+    background-color: aqua;
+    padding: 50px;
+}
+
+.itemA { grid-area: header; }
+.itemB { grid-area: imgA; }
+.itemC { grid-area: imgB; }
+.itemD { grid-area: imgC; }
+.itemE { grid-area: imgD; }

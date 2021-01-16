@@ -26,9 +26,9 @@ class CustomisedInt extends Component{
                         Here's a look at our functional, yet insanely sleek kitchens.
                         They're designed to fit your tastes &amp; crafted to perfection.
                     </div>
-                    <Link to="/modularKitchens">
+                    <a href="http://www.kitekitchens.com/">
                         <button className="btn-kitchen">View More</button>
-                    </Link>
+                    </a>
                 </div>
             </div>
         );

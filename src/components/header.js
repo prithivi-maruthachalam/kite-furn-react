@@ -117,11 +117,11 @@ class NavMenu extends Component{
           </button>
         </Link>
 
-        <Link to="/modularKitchens" className="resp-block">
+        <a href="http://www.kitekitchens.com/" className="resp-block">
           <button className={this.state.classnameslist[2]} onClick={() => this.navSwitch(2)}>
             Modular Kitchens
           </button>
-        </Link>
+        </a>
       </span>
     );
   }
