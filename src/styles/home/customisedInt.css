@@ -403,20 +403,24 @@
 @media(max-width: 550px){
     .custom-title{
         text-align: center;
+        font-size: 35px!important;
     }
 
     .custom-text{
         text-align: center;
         width: 100%;
         left: 0;
+        font-size: 16px!important;
         position: static;
-        margin-top: 25px;
+        margin-top: 7px;
     }
 
     .custom-subtag{
         position: static;
         width: 100%;
         text-align: center;
+        margin-top: 0;
+        padding-top: 15px;
     }
 
     .custom-head{
@@ -426,15 +430,22 @@
     }
 
     .btn-custom-types{
-        font-size: 19px!important;
+        font-size: 16px!important;
     }
 
     .custom-grid{
         margin-top: 0;
+        grid-gap: 10px;
     }
 
     .btn-custom-main{
-        margin-top: 35px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 20px!important;
+    }
+
+    .custom-img-over{
+        font-size: 16px!important;
     }
 
 }

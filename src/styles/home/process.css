@@ -239,6 +239,14 @@
         height: 1200px;
     }
 
+    .process-base{
+        padding-bottom: 20px;
+    }
+
+    .process-pronoun{
+        font-size: 25px;
+    }
+
     .process-puzzle-key{
         display: none!important;
     }
@@ -253,7 +261,7 @@
 
     .process-title{
         text-align: center;
-        font-size: 45px!important;
+        font-size: 30px!important;
     }
 
     .process-base{
@@ -262,7 +270,45 @@
     }
 
     .process-container{
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 700px;
     }
+
+    #p-1 {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    #p-2 {
+        font-size: 16px;
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    #p-3 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    #p-4 {
+        width: 100%;
+        font-size: 16px;
+        padding-left: 30px;
+    }
+
+    #p-5 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    #p-6 {
+        font-size: 25px;
+        color: #dbdbdbe1;
+        padding-top: 10px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1;
+    }
+
 }

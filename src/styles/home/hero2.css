@@ -575,16 +575,40 @@
 
 @media(max-width: 500px){
     .hero2-B{
-        height: 180vw;
+        height: 620px;
     }
 
     .bedFade{
         height: 105vw;
+        top: 120px;
     }
-}
 
-@media(max-width: 415px){
-    .hero2-B{
-        height: 195vw;
+    .content-stair-top{
+        font-size: 12vw!important;
     }
+
+    .content-stair-bottom-container{
+        font-size: 5.5vw!important;
+    }
+
+    .btn-stairs{
+        font-size: 20px!important;
+    }
+
+    .stair-text-content{
+        font-size: 16px;
+        bottom: 15px;
+    }
+    .hero2-A{
+        height: 705px;
+    }
+
+    .btn-bed{
+        font-size: 20px!important;
+    }
+
+    .bed-text-content{
+        font-size: 16px!important;
+        bottom: 15px;
+    }   
 }

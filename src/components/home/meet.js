@@ -67,7 +67,7 @@ class Meet extends Component{
                         </div>
                         <div>
                             <div className="img-container">
-                                <img src={customImages[1]} alt="" />
+                                <img src={customImages[1]} id="vinoth" alt="" />
                             </div>
                             <div className="meet-img-card">
                                 <div className="person-name">Vinoth</div>
@@ -125,7 +125,7 @@ class Meet extends Component{
                                         <img src={phoneIcon} alt="" style={{...imgClass}}/>
                                         </button>
                                     </a>
-                                    <a href="tel:9843023376" className="d-block mt-4">
+                                    <a href="tel:9843023376" className="d-block mt-4ish">
                                         <button className="footer-phone hover-shake" style={{...btnClass}}>
                                         Call Prabhu @ 9843023376 
                                         <img src={phoneIcon} alt="" style={{...imgClass}}/>
