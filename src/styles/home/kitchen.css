@@ -255,6 +255,7 @@
     padding-bottom: 15px;
     padding-right: 15px;
     padding-left: 15px;
+    padding-top: 0;
   }
 
   .kitchen-title {
@@ -269,6 +270,8 @@
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
   }
 
   .kitchen-content {
@@ -282,8 +285,8 @@
 
   .btn-kitchen {
     margin: 0;
-    margin-top: 20px;
-    font-size: 20px!important;
+    margin-top: 10px;
+    font-size: 18px!important;
   }
 }
 

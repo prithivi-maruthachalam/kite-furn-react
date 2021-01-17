@@ -329,8 +329,7 @@
 
     .meet-head{
         font-size: 30px!important;
-        padding: 15px 20px;
-        padding-bottom: 20px;
+        padding: 10px 20px;
     }
 
     .meet-left-images{
@@ -339,7 +338,7 @@
     }
 
     .meet-right{
-        margin-top: 30px;
+        margin-top: 15px;
     }
 
     .meet-right-images{
