@@ -334,31 +334,6 @@
     }
 }
 
-@media(max-width: 425px){
-    .content-stair-top{
-        font-size: 15vw!important;
-        text-align: center;
-        padding: 0;
-    }
-
-    .content-stair-bottom-container{
-        font-size: 7vw!important;
-    }
-
-    .btn-stairs{
-        font-size: 5vw!important;
-    }
-
-    .hero2-A{
-        height: 203vw;
-    }
-
-    .img-stairs{
-        height: 120vw;
-    }
-}
-
-
 
 /*Breakpoints for the Bed section*/
 @media(max-width:1895px){
@@ -574,41 +549,89 @@
 }
 
 @media(max-width: 500px){
-    .hero2-B{
-        height: 620px;
+    /* Stairs */
+    .stair-text-container{
+        position: static;
     }
 
-    .bedFade{
-        height: 105vw;
-        top: 120px;
+    .hero2-A {
+        height: auto;
     }
 
-    .content-stair-top{
-        font-size: 12vw!important;
+    .content-stair-top {
+        font-size: 12vw !important;
+        padding-top: 15px;
+        padding-bottom: 0;
     }
 
-    .content-stair-bottom-container{
-        font-size: 5.5vw!important;
+    .content-stair-bottom-container {
+        font-size: 5.5vw !important;
+        padding-top: 15px;
+        padding-bottom: 0;
     }
 
-    .btn-stairs{
-        font-size: 20px!important;
+    .btn-stairs {
+        font-size: 19px !important;
+        margin-top: 15px;
+        padding: 5px 15px!important;
     }
 
-    .stair-text-content{
+    .img-stairs {
+        top: 50px;
+        width: 100%;
+        height: auto;
+    }
+
+    .stair-text-content {
         font-size: 16px;
-        bottom: 15px;
+        position: static;
+        padding-bottom: 10px;
+        margin: 0;
+        margin-top: 85%;
     }
-    .hero2-A{
-        height: 705px;
+
+
+    /* Bed Stuff */
+    .hero2-B{
+        height: auto
+    }
+
+    .bed-text-container{
+        position: static;
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+
+    .bedFade {
+        height: 105vw;
+        top: -90px;
     }
 
     .btn-bed{
         font-size: 20px!important;
+        margin-top: 10px;
     }
 
     .bed-text-content{
         font-size: 16px!important;
-        bottom: 15px;
-    }   
+        position: static;
+        width: 100%;
+        padding: 0 15px;
+        margin-top: -150px;
+        padding-bottom: 10px;
+    } 
+    
+    .bed-text-container{
+        top: 15px;
+    }
+
+    .bed-text-subtop{
+        padding: 0;
+    }
+}
+
+@media(max-width: 450px){
+    .hero2-B{
+        height: 130vw;
+    }
 }

@@ -119,15 +119,15 @@ class Meet extends Component{
                                 </div>
 
                                 <div className="footer-buttons-container text-left">
-                                    <a href="tel:9843023376" className="d-block">
+                                    <a href="tel:8940401792" className="d-block">
                                         <button className="footer-phone hover-shake" style={{...btnClass}}>
-                                        Call Sajeesh @ 9843023376 
+                                        Call Sajeesh @ 8940401792 
                                         <img src={phoneIcon} alt="" style={{...imgClass}}/>
                                         </button>
                                     </a>
-                                    <a href="tel:9843023376" className="d-block mt-4ish">
+                                    <a href="tel:8940401793" className="d-block mt-4ish">
                                         <button className="footer-phone hover-shake" style={{...btnClass}}>
-                                        Call Prabhu @ 9843023376 
+                                        Call Prabhu @ 8940401793 
                                         <img src={phoneIcon} alt="" style={{...imgClass}}/>
                                         </button>
                                     </a>
