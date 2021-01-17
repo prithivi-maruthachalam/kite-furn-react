@@ -593,7 +593,7 @@
 
     /* Bed Stuff */
     .hero2-B{
-        height: auto
+        height: auto;
     }
 
     .bed-text-container{
@@ -604,7 +604,7 @@
 
     .bedFade {
         height: 105vw;
-        top: -90px;
+        top: -75px;
     }
 
     .btn-bed{
@@ -617,7 +617,7 @@
         position: static;
         width: 100%;
         padding: 0 15px;
-        margin-top: -150px;
+        margin-top: -130px;
         padding-bottom: 10px;
     } 
     
@@ -627,11 +627,5 @@
 
     .bed-text-subtop{
         padding: 0;
-    }
-}
-
-@media(max-width: 450px){
-    .hero2-B{
-        height: 130vw;
     }
 }

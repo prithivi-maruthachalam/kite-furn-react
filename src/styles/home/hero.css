@@ -651,7 +651,7 @@
     }
 
     .hero-base-2{
-        height: 275px;
+        height: 280px;
         position: relative;
         padding: 0 0;
     }
@@ -676,6 +676,7 @@
     .content{
         font-size: 16px!important;
         margin: 0;
+        padding-bottom: 10px;
     }
 
     .btn-explore{
