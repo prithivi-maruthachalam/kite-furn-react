@@ -275,29 +275,31 @@
 
 @media(max-width: 530px){
   .glassStairs-subtitle > div{
-    font-size: 30px;
+    font-size: 18px;
   }
 
   .glassStairs-content{
-    font-size: 20px;
+    font-size: 16px;
+    padding-top: 7px;
+    padding-bottom: 15px;
   }
 
   .glassStairs-title{
-    font-size: 17vw;
+    font-size: 7vw;
+    padding-top: 7px;
   }
 
   .glassStairs-base{
     padding-left: 15px;
     padding-right: 15px;
   }
-}
 
-@media(max-width: 390px){
-  .glassStairs-subtitle > div{
-    font-size: 7vw;
+  .glassStairs-subContainer{
+    margin-top: 10px;
   }
 
-  .glassStairs-content{
-    font-size: 5.3vw;
+  .glassStairsA{
+    grid-gap: 10px;
+    padding-top: 10px;
   }
 }
