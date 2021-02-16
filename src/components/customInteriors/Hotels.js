@@ -27,20 +27,6 @@ class Hotels extends Component{
                                     Sed ut eros felis. 
                                     Cras vulputate lorem 
                                 </div>
-                                <div className="hotels-links">
-                                    <a href="http://hotelatriumerode.com/">
-                                        <button className="btn-hotel-links">Hotel Atrium</button>
-                                    </a>
-                                    <a href="http://hotelatriumerode.com/">
-                                        <button className="btn-hotel-links">Hotel Blah</button>
-                                    </a>
-                                    <a href="http://hotelatriumerode.com/">
-                                        <button className="btn-hotel-links">Hotel 34sare12</button>
-                                    </a>
-                                    <a href="http://hotelatriumerode.com/">
-                                        <button className="btn-hotel-links">Hotel Ablion</button>
-                                    </a>
-                                </div>
                             </div>
                         </div>
                         <div className="itemB gridItem">

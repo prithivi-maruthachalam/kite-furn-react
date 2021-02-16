@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import imgA from '../../media/images/customInteriors/glassStairs/A.jpg';
 import imgB from '../../media/images/customInteriors/glassStairs/B.jpg';
@@ -23,8 +24,16 @@ class GlassStairs extends Component{
                 </div>
                 
                 <div className="glassStairsB">
-                    <div className="glassStairs-title">
-                        GLASS STAIRS
+                    <div className="glassStairs-title-container">
+                        <span>Glass STAIRS</span>
+                        <div className="glassStairs-residenceBtnContainer gsB">
+                            <div className="residenceExtraText">Take a look at more of our designs for <span>Residences</span></div>
+                            <Link to="/residenceInteriors">
+                                <button className="glassStairs-btn-toResidence">
+                                    Residence Interiors
+                                </button>
+                            </Link>
+                        </div>
                     </div>
 
                     <div className="glassStairs-subContainer">
@@ -40,9 +49,17 @@ class GlassStairs extends Component{
                             eiusmod tempor incididunt ut labore 
                             et dolore magna aliqua. Ut enim ad 
                             minim veniam, quis nostrud exercitation 
-                            ullamco laboris nisi ut aliquip ex ea 
-                            commodo consequat.
                         </div>
+
+                        <div className="glassStairs-residenceBtnContainer gsA">
+                            <div className="residenceExtraText">Take a look at more of our designs for <span>Residences</span></div>
+                            <Link to="/residenceInteriors">
+                                <button className="glassStairs-btn-toResidence">
+                                    Residence Interiors
+                                </button>
+                            </Link>
+                        </div>
+
                     </div>
                 </div>
             </div>

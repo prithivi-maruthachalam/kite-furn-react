@@ -55,3 +55,38 @@ body {
   -o-transition: all 2s ease-out;
   transition: all 0.4s;
 }
+
+.globalContainer {
+  padding-top: 77px;
+  width: 100%;
+}
+
+@media(max-width: 1580px) {
+  .globalContainer {
+    padding-top: 72px;
+  }
+}
+
+@media(max-width:1490px) {
+  .globalContainer {
+    padding-top: 127px;
+  }
+}
+
+@media(max-width:870px) {
+  .globalContainer {
+    padding-top: 72px;
+  }
+}
+
+@media(max-width: 740px) {
+  .globalContainer {
+    padding-top: 124px;
+  }
+}
+
+@media(max-width: 590px) {
+  .globalContainer {
+    padding-top: 115px;
+  }
+}

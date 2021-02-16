@@ -292,6 +292,10 @@
     .call-btn-pad{
         padding: 7px 15px;
     }
+
+    .header-container{
+        height: 72px;
+    }
 }
 
 @media(max-width:1490px){
@@ -390,7 +394,7 @@
     }
 
     .header-container{
-        height: 77px;
+        height: 72px;
     }
 
     .menu-drop-enter-active{
@@ -438,7 +442,7 @@
     }
 
     .header-container{
-        height: 50px;
+        height: 115px;
     }
 
     .coll-nav{

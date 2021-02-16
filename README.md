@@ -3,6 +3,17 @@
 ### Built using React and Razzle for Server Side Rendering
    
 
+## Design Specs
+- Title Size 
+  - Big Screens 85px
+  - Small Screens 11vw
+- Subtitle Size
+  - Big Screens 40px
+  - Small Screens 5.5vw
+- Content
+  - Big Screens 22px
+  - Small Screens 16px
+
 ## For Contributors
 - Pages are organised into individual folders inside components/
 - Each page has an index file where all components in that page are imported

@@ -6,7 +6,6 @@ import ResidenceInteriors from "./components/residenceInteriors"
 import ModularKitchens from "./components/modularKitchens"
 import customInteriors from "./components/customInteriors"
 
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/fonts.css';
 import "./App.css";
@@ -19,24 +18,26 @@ const App = () => {
   return (
     <div className="fluid-container text-center">
       <Favicon url={favIconImage}/>
-      <Header/>
-      <Switch>
-        <Route path="/residenceInteriors">
-          <ResidenceInteriors/>
-        </Route>
+      <Header />
+      <div className="fluid-container globalContainer">
+        <Switch>
+          <Route path="/residenceInteriors">
+            <ResidenceInteriors/>
+          </Route>
 
-        <Route path="/modularKitchens">
-          <ModularKitchens/>
-        </Route>
+          <Route path="/modularKitchens">
+            <ModularKitchens/>
+          </Route>
 
-        <Route path="/customInteriors">
-          <CustomInteriors/>
-        </Route>
+          <Route path="/customInteriors">
+            <CustomInteriors/>
+          </Route>
 
-        <Route exact path="/">
-          <Home/>
-        </Route>
-      </Switch>
+          <Route exact path="/">
+            <Home/>
+          </Route>
+        </Switch>
+      </div>
     </div>
   );
 };

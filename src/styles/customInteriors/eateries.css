@@ -1,0 +1,18 @@
+.eateries-base {
+    padding: 30px 40px;
+    background-color: rgb(204, 188, 185);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+    height: 600px;
+}
+
+.eateries-title{
+    font-size: 70px;
+    font-weight: 800;
+    font-family: 'Open Sans';
+    line-height: 1;
+
+    color: rgb(243, 219, 132);
+}
