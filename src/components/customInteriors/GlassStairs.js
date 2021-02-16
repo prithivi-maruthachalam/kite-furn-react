@@ -13,12 +13,20 @@ class GlassStairs extends Component{
                 <div className="glassStairsA">
                     <div>
                         <img className="glassStairs-img" src={imgA} alt="" />
-                        <img className="glassStairs-img-top" src={imgA} alt=""/>
+                        <img className="glassStairs-img-top" src={imgA} alt="" />
+                        <div className="glassStairs-img-overlay">
+                                smae tesfsd gf fgj kj fgj  f ghfdgh;lkh fghlofgk;hklk
+                                gfhjl;gkf lk;gjh;gljk fgklljh  gfkhj
+                        </div>
                     </div>
                     <div>
                         <div className="imgB-container">
                             <img className="glassStairs-img" src={imgB} alt="" />
                             <img className="glassStairs-img-top" src={imgB} alt="" />
+                            <div className="glassStairs-img-overlay">
+                                smae tesfsd gf fgj kj fgj  f ghfdgh;lkh fghlofgk;hklk
+                                gfhjl;gkf lk;gjh;gljk fgklljh  gfkhj
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -14,7 +14,6 @@
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
   grid-gap: 40px;
   padding-left: 10px;
-
 }
 
 .glassStairsB {
@@ -54,6 +53,19 @@
   top: -10px;
   right: 10px;
   border-radius: 5px;
+}
+
+.glassStairs-img-overlay{
+  position: absolute;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.596) 0%, rgba(0, 0, 0, 0) 60%);
+  bottom: 10px;
+  right: 10px;
+  border-radius: 0 0 5px 5px;
+  color: #ffffff;
+  width: 100%;
+  padding: 10px 30px;
+  padding-top: 60px;
+  font-size: 16px;
 }
 
 .glassStairs-title-container > span{
