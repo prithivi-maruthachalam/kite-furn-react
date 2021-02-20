@@ -15,31 +15,41 @@ class Hotels extends Component{
                 <div className="hotels-container">
                     <div className="hotels-grid-container">
                         <div className="itemA">
-                            <div>
-                                <div className="hotels-title">Hotel Interiors</div>
-                                <div className="hotels-content">
-                                    Lorem ipsum dolor sit amet, 
-                                    consectetur adipiscing elit. Fusce 
-                                    eu augue dolor. Mauris sodales 
-                                    pretium nisl, sit amet vulputate 
-                                    elit dictum in. Nam venenatis 
-                                    enim at cursus lobortis. 
-                                    Sed ut eros felis. 
-                                    Cras vulputate lorem 
-                                </div>
+                            <div className="hotels-title">Hotel Interiors</div>
+                            <div className="hotels-content">
+                                Lorem ipsum dolor sit amet, 
+                                consectetur adipiscing elit. Fusce 
+                                eu augue dolor. Mauris sodales 
+                                pretium nisl, sit amet vulputate 
+                                elit dictum in. Nam venenatis 
+                                enim at cursus lobortis. 
+                                Sed ut eros felis. 
+                                Cras vulputate lorem 
                             </div>
                         </div>
                         <div className="itemB gridItem">
-                            <img src={A} alt=""/>
+                            <img src={C} alt="" />
+                            <div className="hotels-img-overlay">
+                                testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
+                            </div>
                         </div>
                         <div className="itemC gridItem">
-                            <img src={D} alt=""/>
+                            <img src={B} alt="" />
+                            <div className="hotels-img-overlay">
+                                testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
+                            </div>
                         </div>
                         <div className="itemD gridItem">
-                            <img src={C} alt=""/>
+                            <img src={A} alt="" />
+                            <div className="hotels-img-overlay">
+                                testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
+                            </div>
                         </div>
                         <div className="itemE gridItem">
-                            <img src={D} alt=""/>
+                            <img src={D} alt="" />
+                            <div className="hotels-img-overlay">
+                                testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
+                            </div>
                         </div>
                     </div>
 
