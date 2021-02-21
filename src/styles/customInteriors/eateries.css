@@ -1,5 +1,5 @@
 .eateries-base {
-    padding: 30px 30px;
+    padding: 45px 35px;
     background-color: rgb(245, 245, 245);
     height: fit-content;
 }
@@ -103,16 +103,21 @@
 
     .eateries-subtext{
         padding-top: 10px;
+        justify-content: space-evenly;
     }
 
     .eateries-content{
         padding-top: 15px;
     }
+
+    .eateries-base{
+        padding: 20px 20px;
+    }
 }
 
 @media(max-width: 650px){
     .eateries-base{
-        padding: 20px 15px;
+        padding: 20px 20px;
     }
 
     .eateries-title{
@@ -126,7 +131,7 @@
 
     .eateries-content{
         font-size: 16.5px;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
         padding-top: 7px;
     }
 }

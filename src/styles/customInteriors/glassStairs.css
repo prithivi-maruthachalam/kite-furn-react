@@ -1,5 +1,5 @@
 .glassStairs-base{
-  padding: 25px 40px;
+  padding: 40px 35px;
   background-color: rgb(235, 238, 238);
   display: flex;
   justify-content: space-between;
@@ -8,8 +8,7 @@
 
 .glassStairsA {
   width: auto;
-  padding: 20px 0;
-
+  padding-top: 10px;
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
   grid-gap: 40px;
@@ -174,7 +173,8 @@
 @media(max-width: 1300px){
   .glassStairs-base{
     flex-direction: column-reverse;
-    padding: 15px 20px;
+    padding: 25px 35px;
+    padding-bottom: 30px;
   }
 
   .glassStairsB{
@@ -252,6 +252,10 @@
 }
 
 @media(max-width: 800px){
+  .glassStairs-base{
+    padding: 20px 20px;
+  }
+
   .glassStairsA{
     grid-template-columns: minmax(0,1fr);
   }
@@ -284,7 +288,6 @@
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 13px;
-
   }
 
   .glassStairs-residenceBtnContainer{
@@ -295,6 +298,11 @@
   .glassStairsA{
     grid-gap: 20px;
     padding-bottom: 30px;
+  }
+
+  .glassStairsB{
+    padding-right: 0;
+    padding-bottom: 25px;
   }
 }
 
@@ -321,6 +329,10 @@
 
   .glassStairsB{
     padding-right: 0;
+  }
+
+  .glassStairsA{
+    padding-bottom: 0;
   }
 }
 

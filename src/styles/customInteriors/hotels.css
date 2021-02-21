@@ -7,7 +7,7 @@
 .hotels-container{
     background-color: #8a6638;
     height: fit-content;
-    padding: 30px;
+    padding: 35px;
     padding-right: 60px;
 }
 
@@ -122,6 +122,10 @@
     .gridItem > img{
         height: 360px;
     }
+
+    .hotels-content{
+        padding-bottom: 0;
+    }
 }
 
 @media(max-width: 992px){
@@ -149,6 +153,11 @@
 
     .itemA{
         align-items: center;
+    }
+
+    .hotels-container{
+        padding: 20px 25px;
+        padding-bottom: 0;
     }
 }
 
