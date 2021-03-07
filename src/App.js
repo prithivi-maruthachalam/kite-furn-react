@@ -4,7 +4,7 @@ import Header from "./components/header.js";
 import Home from "./components/home";
 import ResidenceInteriors from "./components/residenceInteriors"
 import ModularKitchens from "./components/modularKitchens"
-import customInteriors from "./components/customInteriors"
+import CustomInteriors from "./components/customInteriors"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/fonts.css';
@@ -12,7 +12,6 @@ import "./App.css";
 import Favicon from "react-favicon";
 
 import favIconImage from "./media/branding/logoIcon.png";
-import CustomInteriors from "./components/customInteriors";
 
 const App = () => {
   return (

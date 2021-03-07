@@ -4,6 +4,7 @@ import GlassStairs from "./GlassStairs";
 import Hotels from "./Hotels"
 import Eateries from "./Eateries"
 import Halls from "./Halls"
+import Offices from "./Offices"
 
 import '../../styles/customInteriors/index.css';
 
@@ -15,6 +16,7 @@ class CustomInteriors extends Component {
           <Hotels />
           <Eateries />
           <Halls />
+          <Offices/>
         </div>
     );
   }
