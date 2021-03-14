@@ -5,6 +5,7 @@ import Hotels from "./Hotels"
 import Eateries from "./Eateries"
 import Halls from "./Halls"
 import Offices from "./Offices"
+import Retails from "./Retails"
 
 import '../../styles/customInteriors/index.css';
 
@@ -16,7 +17,8 @@ class CustomInteriors extends Component {
           <Hotels />
           <Eateries />
           <Halls />
-          <Offices/>
+          <Offices />
+          <Retails/>
         </div>
     );
   }

@@ -1,5 +1,7 @@
 import { Route, Switch } from "react-router-dom";
 import React, { Component } from 'react';
+import Favicon from "react-favicon";
+
 import Header from "./components/header.js";
 import Home from "./components/home";
 import ResidenceInteriors from "./components/residenceInteriors"
@@ -9,7 +11,6 @@ import CustomInteriors from "./components/customInteriors"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/fonts.css';
 import "./App.css";
-import Favicon from "react-favicon";
 
 import favIconImage from "./media/branding/logoIcon.png";
 
