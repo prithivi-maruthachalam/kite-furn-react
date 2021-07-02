@@ -7,7 +7,6 @@ import { StaticRouter } from 'react-router-dom';
 const assets = require(process.env.RAZZLE_ASSETS_MANIFEST);
 
 const server = express();
-
 export const renderApp = (req, res) => {
   const context = {};
   const markup = renderToString(
