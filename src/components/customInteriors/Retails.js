@@ -10,7 +10,7 @@ import '../../styles/customInteriors/retails.css';
 class Retails extends Component{
     render(){
         return(
-            <div className="fluid-container retails-base">
+            <div className="fluid-container retails-base" id="retails">
                 <div className="retailsA">
                     <div>
                         <img src={imgA} alt="" />

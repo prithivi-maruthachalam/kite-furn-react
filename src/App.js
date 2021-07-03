@@ -1,5 +1,5 @@
-import { Route, Switch } from "react-router-dom";
-import React, { Component } from 'react';
+import { Route, Switch} from "react-router-dom";
+import React from 'react';
 import Favicon from "react-favicon";
 
 import Header from "./components/header.js";
@@ -17,8 +17,10 @@ import favIconImage from "./media/branding/logoIcon.png";
 const App = () => {
   return (
     <div className="fluid-container text-center">
-      <Favicon url={favIconImage}/>
+      <Favicon url={favIconImage} />
+      
       <Header />
+
       <div className="fluid-container globalContainer">
         <Switch>
           <Route path="/residenceInteriors">

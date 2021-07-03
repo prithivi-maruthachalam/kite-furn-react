@@ -12,7 +12,7 @@ import '../../styles/customInteriors/eateries.css';
 class GlassStairs extends Component{
     render(){
         return(
-            <div className="fluid-container eateries-base">
+            <div className="fluid-container eateries-base" id="eateries">
                 <div className="eat-grid-container">
                     <div id="e1">
                         <img src={B1} alt="" />

@@ -1,6 +1,7 @@
 import React, {Component, createRef} from 'react';
 import { CSSTransition } from "react-transition-group";
-import {Link, withRouter} from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
+
 
 import dropArrow from '../media/icons/icons8-triangle-arrow-96.png';
 import homeIcon from '../media/icons/home-icon.png';
@@ -226,27 +227,27 @@ class CustomMenu extends Component{
 
           <div className="menu-drop-internal text-center">
             <div className="menu-drop-buttons-container">
-              <Link to="customInteriors">
+              <a href="/customInteriors/#hotels">
                 <button className="btn btn-light btn-sub-nav" onClick={()=>{this.setState({inProp: false});}}>Hotel Interiors</button>
-              </Link>
+              </a>
 
-              <Link to="customInteriors">
+              <a href="/customInteriors/#eateries">
                 <button className="btn btn-light btn-sub-nav" onClick={()=>{this.setState({inProp: false});}}>Bakeries</button>
-              </Link>
+              </a>
               
-              <Link to="customInteriors">
+              <a href="/customInteriors/#retails">
                 <button className="btn btn-light btn-sub-nav" onClick={()=>{this.setState({inProp: false});}}>Departmentals Stores</button>
-              </Link>
+              </a>
               
-              <Link to="customInteriors">  
+              <a href="/customInteriors/#halls">  
                 <button className="btn btn-light btn-sub-nav" onClick={()=>{this.setState({inProp: false});}}>Banquet &#38; Meeting Halls</button>
-              </Link>
+              </a>
 
-              <Link to="customInteriors">
+              <a href="/customInteriors/#offices">
                 <button className="btn btn-light btn-sub-nav" onClick={() => { this.setState({ inProp: false }); }}>Offices</button>
-              </Link>
+              </a>
               
-              <Link to="customInteriors">  
+              <Link href="/customInteriors">  
                 <button className="btn btn-light btn-sub-nav" onClick={()=>{this.setState({inProp: false});}}>View More</button>
               </Link>
             </div>

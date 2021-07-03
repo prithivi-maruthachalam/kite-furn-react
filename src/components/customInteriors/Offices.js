@@ -10,7 +10,7 @@ import '../../styles/customInteriors/offices.css';
 class Offices extends Component{
     render(){
         return(
-            <div className="fluid-container offices-base">
+            <div className="fluid-container offices-base" id="offices">
                 <div className="offices-grid-container">
                     <div className="title gridItem">
                         <div className="offices-title">

@@ -9,7 +9,7 @@ import '../../styles/customInteriors/glassStairs.css';
 class GlassStairs extends Component{
     render(){
         return(
-            <div className="fluid-container glassStairs-base">
+            <div className="fluid-container glassStairs-base" id="glass-stairs">
                 <div className="glassStairsA">
                     <div>
                         <img className="glassStairs-img" src={imgA} alt="" />

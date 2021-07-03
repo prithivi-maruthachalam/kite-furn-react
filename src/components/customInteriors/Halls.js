@@ -11,7 +11,7 @@ import '../../styles/customInteriors/halls.css';
 class Hotels extends Component{
     render(){
         return(
-            <div className="fluid-container halls-base">
+            <div className="fluid-container halls-base" id="halls">
                 <div className="halls-grid-container">
                     <div id="ha" className="halls-title-container">
                         <div className="halls-title">Mantaps, Halls and Banquets</div>

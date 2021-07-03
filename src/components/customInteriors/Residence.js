@@ -11,7 +11,7 @@ import '../../styles/customInteriors/residence.css';
 class Residence extends Component{
     render(){
         return(
-            <div className="fluid-container residences-base">
+            <div className="fluid-container residences-base" id="residence">
                 <div className="residencesA">
                     <div>
                         <img src={imgA} alt="" />

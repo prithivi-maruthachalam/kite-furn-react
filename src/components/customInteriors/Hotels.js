@@ -11,7 +11,7 @@ import '../../styles/customInteriors/hotels.css';
 class Hotels extends Component{
     render(){
         return(
-            <div className="fluid-container hotels-base">
+            <div className="fluid-container hotels-base" id="hotels">
                 <div className="hotels-container">
                     <div className="hotels-grid-container">
                         <div className="itemA">
