@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 import imgA from '../../media/images/customInteriors/retails/A.jpg';
 import imgB from '../../media/images/customInteriors/retails/B.jpg';
@@ -20,7 +19,7 @@ class Retails extends Component{
                         </div>
                     </div>
                     <div>
-                        <img src={imgD} alt="" />
+                        <img src={imgB} alt="" />
                         <div className="hotels-img-overlay">
                             testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
                         </div>

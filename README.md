@@ -73,19 +73,18 @@ git push
 ### Work on 3 Primary sections
 - ### Customised Interiors
     #### Order to be finalised later. Each of the following is one component. These components together will make a page 
-  - Eateries & Bakeries
-  - Glass Stairs
-  - Hotels
-  - Mantaps & Halls
-  - Offices
-  - Residence Interiors (Has link to Residence Interiors Page)
-  - Retail, Departmental Stores
+  - ~~Eateries & Bakeries~~
+  - ~~Glass Stairs (Links to Residence Interiors)~~
+  - ~~Hotels~~
+  - ~~Mantaps & Halls~~
+  - ~~Offices~~
+  - Residence Interiors (Links to Residence Interiors Page)
 - ### Residence Interiors
   - Bedroom Interiors
   - Bedroom Sets
   - Dining Spaces
   - Glass Stairs
-  - Living Spaces
+  - Living Spaces (Link from Glass Stairs on the Customised Interiors Page)
   - Space Saving Cots
   - Space Saving Wardrobes
 - ### Modular Kitchens (later)
