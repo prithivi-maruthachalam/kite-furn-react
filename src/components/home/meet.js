@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 
-import mb from '../../media/images/factory/b.png';
-import ma from '../../media/images/factory/a.png';
+import mb from '../../media/images/home/factory/b.png';
+import ma from '../../media/images/home/factory/a.png';
 
-import maruthachalam from "../../media/images/team/maruthachalam.jpeg";
-import vinoth from "../../media/images/team/vinoth.jpeg";
-import sajeesh from "../../media/images/team/sajeesh.jpeg";
-import prabhu from "../../media/images/team/prabhu.jpeg";
-import harini from "../../media/images/team/harini.jpeg";
+import maruthachalam from "../../media/images/home/team/maruthachalam.jpeg";
+import vinoth from "../../media/images/home/team/vinoth.jpeg";
+import sajeesh from "../../media/images/home/team/sajeesh.jpeg";
+import prabhu from "../../media/images/home/team/prabhu.jpeg";
+import harini from "../../media/images/home/team/harini.jpeg";
 import phoneIcon from '../../media/icons/phone-icon.png';
 
 import '../../styles/home/meet.css';

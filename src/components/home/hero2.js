@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import CrossfadeLoop from '../utils/fadeLoop.js';
 
-import stairs from '../../media/images/stairs/stairs3.png';
-import stairs2 from '../../media/images/stairs/stairs4.png';
-import bedBase from '../../media/images/bed_anim/bedBase.png';
-import bedlift from '../../media/images/bed_anim/bedLift.png';
+import stairs from '../../media/images/home/stairs/stairs3.png';
+import stairs2 from '../../media/images/home/stairs/stairs4.png';
+import bedBase from '../../media/images/home/bed_anim/bedBase.png';
+import bedlift from '../../media/images/home/bed_anim/bedLift.png';
 
 import '../../styles/home/hero2.css';
 

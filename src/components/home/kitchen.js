@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import kitchenImageA from '../../media/images/kitchen/kitchen1.jpg';
-import kitchenImageB from '../../media/images/kitchen/kitchen2.jpg';
+import kitchenImageA from '../../media/images/home/kitchen/kitchen1.jpg';
+import kitchenImageB from '../../media/images/home/kitchen/kitchen2.jpg';
 
 import '../../styles/home/kitchen.css';
 

@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 import arrow from '../../media/icons/right-arrow.png';
 
-import heroImage from '../../media/images/hero1_wardrobe/base.png'
-import heroImageDoor from '../../media/images/hero1_wardrobe/door.png'
-import heroImageDoor2 from '../../media/images/hero1_wardrobe/door2.png';
+import heroImage from '../../media/images/home/hero1_wardrobe/base.png'
+import heroImageDoor from '../../media/images/home/hero1_wardrobe/door.png'
+import heroImageDoor2 from '../../media/images/home/hero1_wardrobe/door2.png';
 
 import '../../styles/home/hero.css';
 

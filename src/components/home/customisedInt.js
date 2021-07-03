@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import bedroomA from '../../media/images/custom/bedroomA.jpg';
-import bedroomB from '../../media/images/custom/bedroomB.jpg';
-import homeA from '../../media/images/custom/homeA.jpg';
-import hotelA from '../../media/images/custom/hotelA.jpg';
-import hotelB from '../../media/images/custom/hotelB.jpg';
-import hall from '../../media/images/custom/hall.jpg';
+import bedroomA from '../../media/images/home/custom/bedroomA.jpg';
+import bedroomB from '../../media/images/home/custom/bedroomB.jpg';
+import homeA from '../../media/images/home/custom/homeA.jpg';
+import hotelA from '../../media/images/home/custom/hotelA.jpg';
+import hotelB from '../../media/images/home/custom/hotelB.jpg';
+import hall from '../../media/images/home/custom/hall.jpg';
 
 import '../../styles/home/customisedInt.css';
 

@@ -32,7 +32,7 @@
   - ~~Hotels~~
   - ~~Mantaps & Halls~~
   - ~~Offices~~
-  - Residence Interiors (Links to Residence Interiors Page)
+  - ~~Residence Interiors (Links to Residence Interiors Page)~~
 - ### Residence Interiors
   - Bedroom Interiors
   - Bedroom Sets
