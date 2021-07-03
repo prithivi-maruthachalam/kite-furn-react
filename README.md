@@ -2,6 +2,7 @@
 
 ### Built using React and Razzle for Server Side Rendering
    
+# Anyone who volunteers to clean up this code base will be rewarded with their weight in gold 
 
 ## Design Specs
 - Title Size 

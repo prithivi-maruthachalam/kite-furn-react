@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-import WIP from "../workInProgress";
+import '../../styles/residenceInteriors/index.css';
 
 class ResidenceInteriors extends Component {
   render(){
     return (
-        <div className="fluid-container text-center">
-            <WIP/>
+        <div className="fluid-container text-center customInteriors-container">
+
         </div>
     );
   }
