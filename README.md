@@ -37,9 +37,9 @@
   - Bedroom Interiors
   - Bedroom Sets
   - Dining Spaces
-  - Glass Stairs
+  - ~~Glass Stairs~~
   - Living Spaces (Link from Glass Stairs on the Customised Interiors Page)
   - Space Saving Cots
   - Space Saving Wardrobes
-- ### Modular Kitchens (later)
+- ### Modular Kitchens
     #### Will be handled in a later phase of development
