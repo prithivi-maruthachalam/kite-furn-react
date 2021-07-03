@@ -1,0 +1,12 @@
+.customInteriors-img-overlay {
+    position: absolute;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.596) 0%, rgba(0, 0, 0, 0) 60%);
+    bottom: 0;
+    right: 0;
+    color: #ffffff;
+    width: 100%;
+    padding: 10px 30px;
+    padding-top: 60px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}

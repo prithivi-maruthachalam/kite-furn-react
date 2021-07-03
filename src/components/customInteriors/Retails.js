@@ -14,25 +14,25 @@ class Retails extends Component{
                 <div className="retailsA">
                     <div>
                         <img src={imgA} alt="" />
-                        <div className="hotels-img-overlay">
+                        <div className="customInteriors-img-overlay">
                             testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
                         </div>
                     </div>
                     <div>
                         <img src={imgB} alt="" />
-                        <div className="hotels-img-overlay">
+                        <div className="customInteriors-img-overlay">
                             testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
                         </div>
                     </div>
                     <div>
                         <img src={imgC} alt="" />
-                        <div className="hotels-img-overlay">
+                        <div className="customInteriors-img-overlay">
                             testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
                         </div>
                     </div>
                     <div>
                         <img src={imgD} alt="" />
-                        <div className="hotels-img-overlay">
+                        <div className="customInteriors-img-overlay">
                             testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
                         </div>
                     </div>

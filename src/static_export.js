@@ -6,6 +6,3 @@ export const render = (req, res) => {
   res.json({ html });
 };
 
-export const routes = () => {
-  return ['/', '/about'];
-};

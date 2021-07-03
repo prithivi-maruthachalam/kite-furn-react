@@ -29,25 +29,25 @@ class Hotels extends Component{
                         </div>
                         <div className="itemB gridItem">
                             <img src={C} alt="" />
-                            <div className="hotels-img-overlay">
+                            <div className="customInteriors-img-overlay">
                                 testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
                             </div>
                         </div>
                         <div className="itemC gridItem">
                             <img src={B} alt="" />
-                            <div className="hotels-img-overlay">
+                            <div className="customInteriors-img-overlay">
                                 testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
                             </div>
                         </div>
                         <div className="itemD gridItem">
                             <img src={A} alt="" />
-                            <div className="hotels-img-overlay">
+                            <div className="customInteriors-img-overlay">
                                 testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
                             </div>
                         </div>
                         <div className="itemE gridItem">
                             <img src={D} alt="" />
-                            <div className="hotels-img-overlay">
+                            <div className="customInteriors-img-overlay">
                                 testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
                             </div>
                         </div>

@@ -15,25 +15,25 @@ class Residence extends Component{
                 <div className="residencesA">
                     <div>
                         <img src={imgA} alt="" />
-                        <div className="hotels-img-overlay">
+                        <div className="customInteriors-img-overlay">
                             testing fdg dfjkhg dklfjh jlk jhkjhd flkgh j
                         </div>
                     </div>
                     <div>
                         <img src={imgB} alt="" />
-                        <div className="hotels-img-overlay">
+                        <div className="customInteriors-img-overlay">
                             testing fdg dfjkhg dklfjh jlk jhkjhd flkgh j
                         </div>
                     </div>
                     <div>
                         <img src={imgC} alt="" />
-                        <div className="hotels-img-overlay">
+                        <div className="customInteriors-img-overlay">
                             testing fdg dfjkhg dklfjh jlk jhkjhd flkgh j
                         </div>
                     </div>
                     <div>
                         <img src={imgD} alt="" />
-                        <div className="hotels-img-overlay">
+                        <div className="customInteriors-img-overlay">
                             testing fdg dfjkhg dklfjh jlk jhkjhd flkgh j
                         </div>
                     </div>

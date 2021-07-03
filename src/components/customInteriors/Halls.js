@@ -30,31 +30,31 @@ class Hotels extends Component{
                     </div>
                     <div id="hb">
                         <img alt="" src={pan} />
-                        <div className="hotels-img-overlay">
+                        <div className="customInteriors-img-overlay">
                             fdgjdfk  kfd jfh  kjfgdh  hgd khdfs kjg k k 
                         </div>
                     </div>
                     <div id="hc">
                         <img alt="" src={ A } />
-                        <div className="hotels-img-overlay">
+                        <div className="customInteriors-img-overlay">
                             fdgjdfk  kfd jfh  kjfgdh  hgd khdfs kjg k k 
                         </div>
                     </div>
                     <div id="hd">
                         <img alt="" src={ B } />
-                        <div className="hotels-img-overlay">
+                        <div className="customInteriors-img-overlay">
                             fdgjdfk  kfd jfh  kjfgdh  hgd khdfs kjg k k 
                         </div>
                     </div>
                     <div id="he">
                         <img alt="" src={ C } />
-                        <div className="hotels-img-overlay">
+                        <div className="customInteriors-img-overlay">
                             fdgjdfk  kfd jfh  kjfgdh  hgd khdfs kjg k k 
                         </div>
                     </div>
                     <div id="hf">
                         <img alt="" src={ D } />
-                        <div className="hotels-img-overlay">
+                        <div className="customInteriors-img-overlay">
                             fdgjdfk  kfd jfh  kjfgdh  hgd khdfs kjg k k 
                         </div>
                     </div>

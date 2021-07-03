@@ -247,7 +247,7 @@ class CustomMenu extends Component{
                 <button className="btn btn-light btn-sub-nav" onClick={() => { this.setState({ inProp: false }); }}>Offices</button>
               </a>
               
-              <Link href="/customInteriors">  
+              <Link to="/customInteriors">  
                 <button className="btn btn-light btn-sub-nav" onClick={()=>{this.setState({inProp: false});}}>View More</button>
               </Link>
             </div>
