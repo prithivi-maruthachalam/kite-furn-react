@@ -7,7 +7,7 @@ import GlassStairs from './GlassStairs';
 class ResidenceInteriors extends Component {
   render(){
     return (
-        <div className="fluid-container text-center customInteriors-container">
+        <div className="fluid-container text-center residenceInteriors-container">
           <GlassStairs/>
         </div>
     );
