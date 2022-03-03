@@ -6,8 +6,8 @@
 
 .offices-grid-container {
     display: grid;
-    grid-template-columns: auto auto 20%;
-    grid-template-rows: auto 76%;
+    grid-template-columns: auto auto 25%;
+    grid-template-rows: auto 65%;
     grid-gap: 20px;
 }
 
@@ -22,6 +22,15 @@
     grid-row: 1 / span 2;
 }
 
+
+.offices-content{
+    font-size: 20px;
+    color: rgb(44, 44, 44);
+    text-align: left;
+    padding-right: 700px;
+    padding-top: 5px;
+}
+
 .offices-title{
     font-size: 90px;
     text-align: left;
@@ -32,10 +41,6 @@
     font-weight: 600;
     letter-spacing: 10px;
     word-spacing: 20px;
-
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .gridItem > img{
@@ -52,6 +57,11 @@
     .offices-title{
         font-size: 80px;
         position: relative;
+    }
+
+
+    .offices-content{
+        padding-right: 200px;
     }
 }
 
@@ -83,6 +93,11 @@
     .offices-title{
         line-height: 1;
         padding: 0;
+    }
+
+    .offices-content{
+        padding-top: 10px;
+        padding-right: 0px;
     }
 }
 
@@ -121,5 +136,11 @@
     .imgB {
         grid-column: 1 / span 1;
         grid-row: 3 / span 1;
+    }
+
+    .offices-content{
+        font-size: 16px;
+        padding-top: 10px;
+        padding-right: 0px;
     }
 }

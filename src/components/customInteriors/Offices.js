@@ -32,15 +32,27 @@ class Offices extends Component{
                         <div className="offices-title">
                             OFFICE SPACES
                         </div>
+                        <div className="offices-content">
+                            {content.subtext}
+                        </div>
                     </div>
                     <div className="longImg gridItem">
                         <img src={imgC} alt=""/>
+                        <div className="customInteriors-img-overlay">
+                            {content.imgA.front}
+                        </div>
                     </div>
                     <div className="imgA gridItem">
                         <img src={imgA} alt=""/>
+                        <div className="customInteriors-img-overlay">
+                            {content.imgB.front}
+                        </div>
                     </div>
                     <div className="imgB gridItem">
                         <img src={imgB} alt=""/>
+                        <div className="customInteriors-img-overlay">
+                            {content.imgC.front}
+                        </div>
                     </div>
                 </div>
             </div>
