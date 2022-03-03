@@ -7,6 +7,22 @@ import imgC from '../../media/images/customInteriors/offices/C.JPG';
 
 import '../../styles/customInteriors/offices.css';
 
+const content = {
+    subtext: 'Office interiors have the power to play a major role in influencing the emotions of owners, employees, and customers. We do office interiors which gives an identity to the business.',
+    imgA: {
+        alt: '',
+        front: 'This functional workspace improves productivity with its design efficiency.'
+    },
+    imgB: {
+        alt: '',
+        front: 'We also design thematic and color based offices identifying the office with the business.'
+    },
+    imgC: {
+        alt: '',
+        front: 'We also design home offices where you work from home such as the one shown here.'
+    }
+}
+
 class Offices extends Component{
     render(){
         return(

@@ -7,6 +7,27 @@ import imgD from '../../media/images/customInteriors/retails/D.jpg';
 
 import '../../styles/customInteriors/retails.css';
 
+const content = {
+    subTitle: 'Maximize Customer Flow',
+    subtext: 'We smartly design retail store layouts. Designs which assists walk-ins and converts walk-ins to sales. Even a minimal budget, when used wisely, can bring out your store\’s full potential.',
+    imgA: {
+        alt: '',
+        front: 'We also create exterior appeal by styling of a retail outlet such as this one.'
+    },
+    imgB: {
+        alt: '',
+        front: 'We also design signage and graphics in retail outlets.'
+    },
+    imgC: {
+        alt: '',
+        front: 'Many retail spaces such as this one also serves as a showroom to help a brand connect with its potential customers.'
+    },
+    imgD: {
+        alt: '',
+        front: 'A well designed floor plan plays a critical role in managing store flow, traffic and sales.'
+    }
+}
+
 class Retails extends Component{
     render(){
         return(
@@ -15,25 +36,25 @@ class Retails extends Component{
                     <div>
                         <img src={imgA} alt="" />
                         <div className="customInteriors-img-overlay">
-                            testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
+                            {content.imgA.front}
                         </div>
                     </div>
                     <div>
                         <img src={imgB} alt="" />
                         <div className="customInteriors-img-overlay">
-                            testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
+                            {content.imgB.front}
                         </div>
                     </div>
                     <div>
                         <img src={imgC} alt="" />
                         <div className="customInteriors-img-overlay">
-                            testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
+                            {content.imgC.front}
                         </div>
                     </div>
                     <div>
                         <img src={imgD} alt="" />
                         <div className="customInteriors-img-overlay">
-                            testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
+                            {content.imgD.front}
                         </div>
                     </div>
                 </div>
@@ -43,17 +64,11 @@ class Retails extends Component{
                     </div>
                     <div className="retails-subContainer">
                         <div className="retails-subtitles">
-                            <div>something here</div>
-                            <div>something else or</div>
-                            <div>what what blah</div>
+                            <div>{content.subTitle}</div>
                         </div>
                         <div className="retails-content">
-                                Lorem ipsum dolor sit amet, 
-                                consectetur adipiscing elit, sed do 
-                                eiusmod tempor incididunt ut labore 
-                                et dolore magna aliqua. Ut enim ad 
-                                minim veniam, quis nostrud exercitation
-                    </div>
+                            {content.subtext}
+                        </div>
                     </div>
                 </div>
             </div>
