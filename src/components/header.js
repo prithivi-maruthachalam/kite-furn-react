@@ -112,11 +112,11 @@ class NavMenu extends Component{
           </button>
         </Link>  
 
-        <Link to="/residenceInteriors" className="resp-block">
+        <a href="/customInteriors/#residence" className="resp-block">
           <button className={this.state.classnameslist[1]} onClick={() => this.navSwitch(1)}>
             Residence Interiors
           </button>
-        </Link>
+        </a>
 
         <a href="http://www.kitekitchens.com/" className="resp-block">
           <button className={this.state.classnameslist[2]} onClick={() => this.navSwitch(2)}>
@@ -147,7 +147,6 @@ class CollapsibleMenu extends Component{
       if(this.wrapperRef.current && !this.wrapperRef.current.contains(event.target)){
         this.setState({inProp: false});
       }
-      //alert(this.wrapperRef.current.contains(event.target));
     });
   }
 

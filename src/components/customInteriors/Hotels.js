@@ -8,6 +8,32 @@ import D from '../../media/images/customInteriors/hotels/D.jpg'
 
 import '../../styles/customInteriors/hotels.css';
 
+const content = {
+    subtext: 'Make a great first impression.' + 
+            '\nThe design details we do in hotels helps make them stand out. Hotel interior design is crucial to make any guest feel welcome.' + 
+            '\nWe do spaces which are functional, attractive and beneficial to visitors.',
+            imgA: {
+                alt: '',
+                front: ''
+            },
+            imgA: {
+                alt: '',
+                front: 'This stunning and beautiful lobby makes the hotel memorable and a guest would be delighted to go through it.'
+            },
+            imgB: {
+                alt: '',
+                front: 'Guest room should be functional, attractive, luxurious and comforting as in this room.'
+            },
+            imgC: {
+                alt: '',
+                front: 'This business class hotel’s lobby also doubles as a place for casual meetings.'
+            },
+            imgD: {
+                alt: '',
+                front: 'This spacious guestroom is exotically cozy for its guests.'
+            },
+}
+
 class Hotels extends Component{
     render(){
         return(
@@ -17,38 +43,31 @@ class Hotels extends Component{
                         <div className="itemA">
                             <div className="hotels-title">Hotel Interiors</div>
                             <div className="hotels-content">
-                                Lorem ipsum dolor sit amet, 
-                                consectetur adipiscing elit. Fusce 
-                                eu augue dolor. Mauris sodales 
-                                pretium nisl, sit amet vulputate 
-                                elit dictum in. Nam venenatis 
-                                enim at cursus lobortis. 
-                                Sed ut eros felis. 
-                                Cras vulputate lorem 
+                                {content.subtext}
                             </div>
                         </div>
                         <div className="itemB gridItem">
-                            <img src={C} alt="" />
+                            <img src={A} alt="" />
                             <div className="customInteriors-img-overlay">
-                                testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
+                                {content.imgA.front}
                             </div>
                         </div>
                         <div className="itemC gridItem">
                             <img src={B} alt="" />
                             <div className="customInteriors-img-overlay">
-                                testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
+                                {content.imgB.front}
                             </div>
                         </div>
                         <div className="itemD gridItem">
-                            <img src={A} alt="" />
+                            <img src={C} alt="" />
                             <div className="customInteriors-img-overlay">
-                                testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
+                                {content.imgC.front}
                             </div>
                         </div>
                         <div className="itemE gridItem">
                             <img src={D} alt="" />
                             <div className="customInteriors-img-overlay">
-                                testing fdg  dfjkhg  dklfj h j lk jh kj hd flkgh j
+                                {content.imgD.front}
                             </div>
                         </div>
                     </div>

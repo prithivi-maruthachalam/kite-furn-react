@@ -1,10 +1,28 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 import imgA from '../../media/images/customInteriors/glassStairs/A.jpg';
-import imgB from '../../media/images/customInteriors/glassStairs/B.jpg';
+import imgB from '../../media/images/customInteriors/glassStairs/B.png';
 
 import '../../styles/customInteriors/glassStairs.css';
+
+const content = {
+    imgA: {
+        alt: 'testing',
+        front: 'Glass and wooden rails along with wood finishes for steps makes this existing staircase look new, modern & spacious.'
+    }, 
+    imgB: {
+        alt: 'testing',
+        front: 'This prefabricated steel steps finished in wood with glass and wooden rails complements a modern home.'
+    }, 
+    subTitle: {
+        line1: 'New and retrofitted handrails',
+        line2: '1 Lakh to 5 Lakhs',
+        line3: 'Glass, Wood and Metal'
+    },
+    subtext: 'Glass railing systems have a higher aesthetic appeal, increases visibility, increases light and glass creates the illusion of more space.\n' +
+        '\nThese are of low maintenance and are very durable.' + 
+        '\nThese rails can also be fitted to existing staircases.'
+}
 
 class GlassStairs extends Component{
     render(){
@@ -15,8 +33,7 @@ class GlassStairs extends Component{
                         <img className="glassStairs-img" src={imgA} alt="" />
                         <img className="glassStairs-img-top" src={imgA} alt="" />
                         <div className="glassStairs-img-overlay">
-                                smae tesfsd gf fgj kj fgj  f ghfdgh;lkh fghlofgk;hklk
-                                gfhjl;gkf lk;gjh;gljk fgklljh  gfkhj
+                            {content.imgA.front}
                         </div>
                     </div>
                     <div>
@@ -24,8 +41,7 @@ class GlassStairs extends Component{
                             <img className="glassStairs-img" src={imgB} alt="" />
                             <img className="glassStairs-img-top" src={imgB} alt="" />
                             <div className="glassStairs-img-overlay">
-                                smae tesfsd gf fgj kj fgj  f ghfdgh;lkh fghlofgk;hklk
-                                gfhjl;gkf lk;gjh;gljk fgklljh  gfkhj
+                                {content.imgB.front}
                             </div>
                         </div>
                     </div>
@@ -36,36 +52,32 @@ class GlassStairs extends Component{
                         <span>Glass STAIRS</span>
                         <div className="glassStairs-residenceBtnContainer gsB">
                             <div className="residenceExtraText">Take a look at more of our designs for <span>Residences</span></div>
-                            <Link to="/residenceInteriors">
+                            <a href="/customInteriors/#residence">
                                 <button className="glassStairs-btn-toResidence">
                                     Residence Interiors
                                 </button>
-                            </Link>
+                            </a>
                         </div>
                     </div>
 
                     <div className="glassStairs-subContainer">
                         <div className="glassStairs-subtitle">
-                            <div>Fully customisable</div>
-                            <div>Glass, wood and metal</div>
-                            <div>Starting from 20k</div>
+                            <div>{content.subTitle.line1}</div>
+                            <div>{content.subTitle.line2}</div>
+                            <div>{content.subTitle.line3}</div>
                         </div>
 
                         <div className="glassStairs-content">
-                            Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit, sed do 
-                            eiusmod tempor incididunt ut labore 
-                            et dolore magna aliqua. Ut enim ad 
-                            minim veniam, quis nostrud exercitation 
+                            {content.subtext}
                         </div>
 
                         <div className="glassStairs-residenceBtnContainer gsA">
                             <div className="residenceExtraText">Take a look at more of our designs for <span>Residences</span></div>
-                            <Link to="/residenceInteriors">
+                            <a href="/customInteriors/#residence">
                                 <button className="glassStairs-btn-toResidence">
                                     Residence Interiors
                                 </button>
-                            </Link>
+                            </a>
                         </div>
 
                     </div>
