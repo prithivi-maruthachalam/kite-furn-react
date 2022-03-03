@@ -12,26 +12,26 @@ const content = {
     subtext: 'Make a great first impression.' + 
             '\nThe design details we do in hotels helps make them stand out. Hotel interior design is crucial to make any guest feel welcome.' + 
             '\nWe do spaces which are functional, attractive and beneficial to visitors.',
-            imgA: {
-                alt: '',
-                front: ''
-            },
-            imgA: {
-                alt: '',
-                front: 'This stunning and beautiful lobby makes the hotel memorable and a guest would be delighted to go through it.'
-            },
-            imgB: {
-                alt: '',
-                front: 'Guest room should be functional, attractive, luxurious and comforting as in this room.'
-            },
-            imgC: {
-                alt: '',
-                front: 'This business class hotel’s lobby also doubles as a place for casual meetings.'
-            },
-            imgD: {
-                alt: '',
-                front: 'This spacious guestroom is exotically cozy for its guests.'
-            },
+        imgA: {
+            alt: '',
+            front: ''
+        },
+        imgA: {
+            alt: '',
+            front: 'This stunning and beautiful lobby makes the hotel memorable and a guest would be delighted to go through it.'
+        },
+        imgB: {
+            alt: '',
+            front: 'Guest room should be functional, attractive, luxurious and comforting as in this room.'
+        },
+        imgC: {
+            alt: '',
+            front: 'This business class hotel’s lobby also doubles as a place for casual meetings.'
+        },
+        imgD: {
+            alt: '',
+            front: 'This spacious guestroom is exotically cozy for its guests.'
+        },
 }
 
 class Hotels extends Component{

@@ -60,7 +60,7 @@
 @media(max-width: 1500px){
     #e1 {
         order: 1;
-        background-image: url("../../media/images/customInteriors/eateries_bakeries/B1.JPG");
+        background-image: url("../../media/images/customInteriors/eateries_bakeries/A.JPG");
         background-size: cover;
     }
     #e1 > img{

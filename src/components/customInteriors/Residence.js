@@ -8,6 +8,27 @@ import imgD from '../../media/images/customInteriors/residence_interiors/D.jpg';
 
 import '../../styles/customInteriors/residence.css';
 
+const content = {
+    subTitle: 'Beauty & Functionality',
+    subtext: 'We customize manufacture and supply home interiors. We do Living, dining, bedrooms, kitchens, stairs, storage units and more so that your space meets your every requirement.',
+    imgA: {
+        alt: '',
+        front: 'We also create bedrooms as an expression such as this Egyptian themed bedroom with motifs.'
+    },
+    imgB: {
+        alt: '',
+        front: 'We also create lively spaces such as this patio surrounded by living, dining and a corridor.'
+    },
+    imgC: {
+        alt: '',
+        front: 'Even the hand wash unit can become a beautiful accent such as the one in this dining. '
+    },
+    imgD: {
+        alt: '',
+        front: 'We also do Indian classical and European classical themed spaces.'
+    }
+}
+
 class Residence extends Component{
     render(){
         return(
@@ -16,25 +37,25 @@ class Residence extends Component{
                     <div>
                         <img src={imgA} alt="" />
                         <div className="customInteriors-img-overlay">
-                            testing fdg dfjkhg dklfjh jlk jhkjhd flkgh j
+                            {content.imgA.front}
                         </div>
                     </div>
                     <div>
                         <img src={imgB} alt="" />
                         <div className="customInteriors-img-overlay">
-                            testing fdg dfjkhg dklfjh jlk jhkjhd flkgh j
+                            {content.imgB.front}
                         </div>
                     </div>
                     <div>
                         <img src={imgC} alt="" />
                         <div className="customInteriors-img-overlay">
-                            testing fdg dfjkhg dklfjh jlk jhkjhd flkgh j
+                            {content.imgC.front}
                         </div>
                     </div>
                     <div>
                         <img src={imgD} alt="" />
                         <div className="customInteriors-img-overlay">
-                            testing fdg dfjkhg dklfjh jlk jhkjhd flkgh j
+                            {content.imgD.front}
                         </div>
                     </div>
                 </div>
@@ -58,16 +79,10 @@ class Residence extends Component{
                     
                     <div className="residences-subContainer">
                         <div className="residences-subtitles">
-                            <div>something here</div>
-                            <div>something else or</div>
-                            <div>what what blah</div>
+                            <div>{content.subTitle}</div>
                         </div>
                         <div className="residences-content">
-                            Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit, sed do 
-                            eiusmod tempor incididunt ut labore 
-                            et dolore magna aliqua. Ut enim ad 
-                            minim veniam, quis nostrud exercitation
+                            {content.subtext}
                         </div>                        
                     </div>
 
