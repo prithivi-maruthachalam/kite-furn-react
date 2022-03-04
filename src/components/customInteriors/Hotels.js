@@ -32,6 +32,9 @@ const content = {
             alt: '',
             front: 'This spacious guestroom is exotically cozy for its guests.'
         },
+        roomNumber: {
+            alt: 'some alt text'
+        }
 }
 
 class Hotels extends Component{
@@ -47,32 +50,32 @@ class Hotels extends Component{
                             </div>
                         </div>
                         <div className="itemB gridItem">
-                            <img src={A} alt="" />
+                            <img src={A} alt={content.imgA.alt} />
                             <div className="customInteriors-img-overlay">
                                 {content.imgA.front}
                             </div>
                         </div>
                         <div className="itemC gridItem">
-                            <img src={B} alt="" />
+                            <img src={B} alt={content.imgB.alt} />
                             <div className="customInteriors-img-overlay">
                                 {content.imgB.front}
                             </div>
                         </div>
                         <div className="itemD gridItem">
-                            <img src={C} alt="" />
+                            <img src={C} alt={content.imgC.alt} />
                             <div className="customInteriors-img-overlay">
                                 {content.imgC.front}
                             </div>
                         </div>
                         <div className="itemE gridItem">
-                            <img src={D} alt="" />
+                            <img src={D} alt={content.imgD.alt} />
                             <div className="customInteriors-img-overlay">
                                 {content.imgD.front}
                             </div>
                         </div>
                     </div>
 
-                    <img src={roomNumber} className="img-roomNumber" alt="" />
+                    <img src={roomNumber} className="img-roomNumber" alt={content.roomNumber.alt} />
                 </div>
             </div>
         );

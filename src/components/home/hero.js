@@ -10,6 +10,15 @@ import heroImageDoor2 from '../../media/images/home/hero1_wardrobe/door2.png';
 
 import '../../styles/home/hero.css';
 
+const content = {
+    imgA: {
+        alt: 'space saving sliding furniture in Coimbatore ,Erode, Ooty, Salem, Tamil Nadu best selling wardrobe '
+    },
+    button: {
+        alt: ''
+    }
+}
+
 class Hero extends Component{
 
     render(){
@@ -19,7 +28,7 @@ class Hero extends Component{
                 <div className="fluid-container hero-base">
                 
                     <div className="hero-image-bg-left">
-                        <img src={heroImage} alt="space saving sliding furniture in Coimbatore ,Erode, Ooty, Salem, Tamil Nadu best selling wardrobe " className="hero-space-image"/>
+                        <img src={heroImage} alt={content.imgA.alt} className="hero-space-image"/>
                         <img src={heroImageDoor} alt="sliding door wardrobe in Coimbatore, Erode, Ooty, Salem, Tamil Nadu bedroom furniture" className="hero-space-image-door"/>
                         <img src={heroImageDoor2} alt="Customized sliding door wardrobe bedroom furniture wardrobe with mirror wardrobe designs" className="hero-space-image-door2" />
                     </div>

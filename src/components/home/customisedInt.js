@@ -12,6 +12,27 @@ import '../../styles/home/customisedInt.css';
 
 const customImages = [bedroomA,homeA,hotelA,hall,bedroomB,hotelB];
 
+const content = {
+    imgA: {
+        alt: ''
+    },
+    imgB: {
+        alt: ''
+    },
+    imgC: {
+        alt: ''
+    },
+    imgD: {
+        alt: ''
+    },
+    imgE: {
+        alt: ''
+    },
+    imgF: {
+        alt: ''
+    }
+}
+
 class CustomisedInt extends Component{
     render(){
         return(
@@ -58,27 +79,27 @@ class CustomisedInt extends Component{
 
                 <div className="custom-grid">
                     <div className="grid-item">
-                        <img src={customImages[0]} alt="study room book shelves shoe rack made in india furniture european designs bedroom furniture bedroom sets" className="custom-img" />
+                        <img src={customImages[0]} alt={content.imgA.alt} className="custom-img" />
                         <div className="custom-img-over text-center">Bedrooms</div>
                     </div>
                     <div className="grid-item">
-                        <img src={customImages[1]} alt="living room furniture TV units dining furniture interior design idea dining room furniture dining furniture" className="custom-img" />
+                        <img src={customImages[1]} alt={content.imgB.alt} className="custom-img" />
                         <div className="custom-img-over text-center">Living Spaces</div>
                     </div>  
                     <div className="grid-item">
-                        <img src={customImages[2]} alt="hotels custom beds and furniture bedroom furniture 2 door wardrobe 3 door wardrobe 4 door wardrobe" className="custom-img" />
+                        <img src={customImages[2]} alt={content.imgC.alt} className="custom-img" />
                         <div className="custom-img-over text-center">Hotels</div>
                     </div>
                     <div className="grid-item">
-                        <img src={customImages[3]} alt="banquest halls dining tables dining furniture meeting halls best interior designer" className="custom-img" />
+                        <img src={customImages[3]} alt={content.imgD.alt} className="custom-img" />
                         <div className="custom-img-over text-center">Banquet Halls</div>
                     </div>
                     <div className="grid-item">
-                        <img src={customImages[4]} alt="bedside tables dressing table custom furniture interior designer european designs best quality custom wardrobe bedroom storage" className="custom-img" />
+                        <img src={customImages[4]} alt={content.imgE.alt} className="custom-img" />
                         <div className="custom-img-over text-center">Custom Furniture</div>
                     </div>
                     <div className="grid-item"> 
-                        <img src={customImages[5]} alt="restaurants interior design Coimbatore ,Erode, Ooty, Salem, Tamil Nadu" className="custom-img" />
+                        <img src={customImages[5]} alt={content.imgF.alt} className="custom-img" />
                         <div className="custom-img-over text-center">Restaurants</div>
                     </div>
                 </div>

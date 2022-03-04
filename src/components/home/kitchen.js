@@ -6,6 +6,14 @@ import kitchenImageB from '../../media/images/home/kitchen/kitchen2.jpg';
 
 import '../../styles/home/kitchen.css';
 
+const content = {
+    imgA: {
+        alt: ''
+    },
+    imgB: {
+        alt: ''
+    }
+}
 
 class CustomisedInt extends Component{
     render(){
@@ -13,10 +21,10 @@ class CustomisedInt extends Component{
             <div className="fluid-container kitchen-base">
                 <div className="kitchen-A">
                     <div>
-                        <img className="kitchen-img img-fluid" src={kitchenImageA} alt="Modular Kitchens in Coimbatore, Erode, Ooty, Salem, Tamil Nadu Acrylic Kitchen Shutters Coimbatore, Erode, Ooty, Salem, Tamil Nadu"/>
+                        <img className="kitchen-img img-fluid" src={kitchenImageA} alt={content.imgA.alt}/>
                     </div>
                     <div>
-                        <img className="kitchen-img img-fluid" src={kitchenImageB} alt="Customized Modular kitchens german engineering sleek kitchens Made in India"/>
+                        <img className="kitchen-img img-fluid" src={kitchenImageB} alt={content.imgB.alt}/>
                     </div>
                 </div>
 

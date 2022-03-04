@@ -11,12 +11,24 @@ import '../../styles/home/hero2.css';
 
 const bedImages = [bedBase, bedlift];
 
+const content = {
+    imgA: {
+        alt: 'modern stairs custom design beautiful interior design end-to end interior solutions customised staircases'
+    },
+    imgB: {
+        alt: [
+            'Made in india Single Bed, Queen Bed, Single Cot, Queen Size cot, King Size Cot, King Size Storage Bed, King Bed, Hydraulic Storage Beds, Hydraulic Storage Cot, Storage Beds in Coimabtore, Erode, Ooty, Salem, Tamil Nadu, Storage Cots in Coimabtore, Erode, Ooty, Salem, Tamil Nadu Beds with storage',
+            'other one'
+        ]
+    }
+}
+
 class Hero2 extends Component{
     render(){
         return(
             <div className="fluid-container hero2-base">
                 <div className="hero2-A">
-                    <img src={stairs} className="img-stairs" alt="modern stairs custom design beautiful interior design end-to end interior solutions customised staircases " />
+                    <img src={stairs} className="img-stairs" alt={content.imgA.alt} />
                     <img src={stairs2} className="img-stairs stairDisp" alt="modern stairs custom design beautiful interior design end-to end interior solutions customised staircases " />
 
                     <div className="stair-text-container">
@@ -68,8 +80,7 @@ class Hero2 extends Component{
                         anim_duration={1500}
                         timingFunction={"ease-out"}
                         ClassValue="bedFade"
-                        alt="Made in india Single Bed, Queen Bed, Single Cot, Queen Size cot, King Size Cot, King Size Storage Bed, King Bed, Hydraulic Storage Beds, Hydraulic Storage 
-                            Cot, Storage Beds in Coimabtore, Erode, Ooty, Salem, Tamil Nadu, Storage Cots in Coimabtore, Erode, Ooty, Salem, Tamil Nadu Beds with storage"
+                        alt={content.imgB.alt}
                         interval= {3000}
                     />
 

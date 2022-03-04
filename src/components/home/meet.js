@@ -32,6 +32,36 @@ const btnClass = {
     color: "#ffffff",
 }
 
+const content = {
+    imgA: {
+        alt: ''
+    },
+    imgB: {
+        alt: ''
+    },
+    imgC: {
+        alt: ''
+    },
+    imgD: {
+        alt: ''
+    },
+    imgE: {
+        alt: ''
+    },
+    imgF: {
+        alt: ''
+    },
+    imgG: {
+        alt: ''
+    },
+    imgPhA: {
+        alt: 'ph test'
+    },
+    imgPhB: {
+        alt: 'ph test 2'
+    }
+}
+
 class Meet extends Component{
     render(){
         return(
@@ -44,10 +74,10 @@ class Meet extends Component{
                     <div className="meet-left">
                         <div className="meet-left-images">
                             <div>
-                                <img src={mb} className="meet-left-img" id="img-L-A" alt=""/>
+                                <img src={mb} className="meet-left-img" id="img-L-A" alt={content.imgA.alt}/>
                             </div>
                             <div>
-                                <img src={ma} className="meet-left-img" alt="" />
+                                <img src={ma} className="meet-left-img" alt={content.imgE.alt} />
                             </div>
                         </div>
                     </div>
@@ -56,7 +86,7 @@ class Meet extends Component{
                     <div className="meet-right-images">
                         <div>
                             <div className="img-container">
-                                <img src={customImages[0]} id="mm-img" alt="" />
+                                <img src={customImages[0]} id="mm-img" alt={content.imgB.alt} />
                             </div>
                             <div className="meet-img-card" id="mm_card">
                                 <div className="person-name" id="mm">Maruthachalam</div>
@@ -67,7 +97,7 @@ class Meet extends Component{
                         </div>
                         <div>
                             <div className="img-container">
-                                <img src={customImages[1]} id="vinoth" alt="" />
+                                <img src={customImages[1]} id="vinoth" alt={content.imgC.alt} />
                             </div>
                             <div className="meet-img-card">
                                 <div className="person-name">Vinoth</div>
@@ -78,7 +108,7 @@ class Meet extends Component{
                         </div>  
                         <div>
                             <div className="img-container">
-                                <img src={customImages[2]} id="sajeesh" alt="" />
+                                <img src={customImages[2]} id="sajeesh" alt={content.imgD.alt} />
                             </div>
                             <div className="meet-img-card">
                                 <div className="person-name">Sajeesh</div>
@@ -89,7 +119,7 @@ class Meet extends Component{
                         </div>
                         <div>
                             <div className="img-container">
-                                <img src={customImages[3]} id="prabhu" alt="" />
+                                <img src={customImages[3]} id="prabhu" alt={content.imgE.alt} />
                             </div>
                             <div className="meet-img-card">
                                 <div className="person-name">Prabhu</div>
@@ -100,7 +130,7 @@ class Meet extends Component{
                         </div>
                         <div>
                             <div className="img-container" id="harini">
-                                <img src={customImages[4]} alt="" />
+                                <img src={customImages[4]} alt={content.imgF.alt} />
                             </div>
                             <div className="meet-img-card">
                                 <div className="person-name">Harini</div>
@@ -122,13 +152,13 @@ class Meet extends Component{
                                     <a href="tel:8940401792" className="d-block">
                                         <button className="footer-phone hover-shake" style={{...btnClass}}>
                                         Call Sajeesh @ 8940401792 
-                                        <img src={phoneIcon} alt="" style={{...imgClass}}/>
+                                        <img src={phoneIcon} alt={content.imgPhA.alt} style={{...imgClass}}/>
                                         </button>
                                     </a>
                                     <a href="tel:8940401793" className="d-block mt-4ish">
                                         <button className="footer-phone hover-shake" style={{...btnClass}}>
                                         Call Prabhu @ 8940401793 
-                                        <img src={phoneIcon} alt="" style={{...imgClass}}/>
+                                        <img src={phoneIcon} alt={content.imgPhB.alt} style={{...imgClass}}/>
                                         </button>
                                     </a>
                                 </div>

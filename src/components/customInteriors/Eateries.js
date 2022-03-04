@@ -40,7 +40,7 @@ class GlassStairs extends Component{
             <div className="fluid-container eateries-base" id="eateries">
                 <div className="eat-grid-container">
                     <div id="e1">
-                        <img src={A} alt="" />
+                        <img src={A} alt={content.imgA.alt} />
                         <div className="customInteriors-img-overlay">
                             {content.imgA.front}
                         </div>
@@ -57,25 +57,25 @@ class GlassStairs extends Component{
                         </div>
                     </div>
                     <div id="e3">
-                        <img src={B} alt="" />
+                        <img src={B} alt={content.imgB.alt} />
                         <div className="customInteriors-img-overlay">
                             {content.imgB.front}
                         </div>
                     </div>
                     <div id="e4">
-                        <img src={D} alt="" />
+                        <img src={D} alt={content.imgC.alt} />
                         <div className="customInteriors-img-overlay">
                             {content.imgC.front}
                         </div>
                     </div>
                     <div id="e5">
-                        <img src={C} alt="" />
+                        <img src={C} alt={content.imgD.alt} />
                         <div className="customInteriors-img-overlay">
                             {content.imgD.front} 
                         </div>
                     </div>
                     <div id="e6">
-                        <img src={E} alt="" />
+                        <img src={E} alt={content.imgE.alt} />
                         <div className="customInteriors-img-overlay">
                             {content.imgE.front}
                         </div>

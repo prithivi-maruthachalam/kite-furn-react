@@ -8,10 +8,12 @@ import '../../styles/customInteriors/glassStairs.css';
 const content = {
     imgA: {
         alt: 'testing',
+        alt2: 'testing2',
         front: 'Glass and wooden rails along with wood finishes for steps makes this existing staircase look new, modern & spacious.'
     }, 
     imgB: {
         alt: 'testing',
+        alt2: 'testing2',
         front: 'This prefabricated steel steps finished in wood with glass and wooden rails complements a modern home.'
     }, 
     subTitle: {
@@ -30,16 +32,16 @@ class GlassStairs extends Component{
             <div className="fluid-container glassStairs-base" id="glass-stairs">
                 <div className="glassStairsA">
                     <div>
-                        <img className="glassStairs-img" src={imgA} alt="" />
-                        <img className="glassStairs-img-top" src={imgA} alt="" />
+                        <img className="glassStairs-img" src={imgA} alt={content.imgA.alt} />
+                        <img className="glassStairs-img-top" src={imgA} alt={content.imgA.alt2} />
                         <div className="glassStairs-img-overlay">
                             {content.imgA.front}
                         </div>
                     </div>
                     <div>
                         <div className="imgB-container">
-                            <img className="glassStairs-img" src={imgB} alt="" />
-                            <img className="glassStairs-img-top" src={imgB} alt="" />
+                            <img className="glassStairs-img" src={imgB} alt={content.imgB.alt} />
+                            <img className="glassStairs-img-top" src={imgB} alt={content.imgB.alt2} />
                             <div className="glassStairs-img-overlay">
                                 {content.imgB.front}
                             </div>

@@ -38,12 +38,12 @@ class CrossfadeLoop extends Component{
                 <img src={this.props.src[0]} style={{
                     ...imgBaseStyle,
                     ...{transition: `all ${this.props.anim_duration/1000}s`, opacity:this.state.op1}
-                }} alt={this.props.alt}/>
+                }} alt={this.props.alt[0]}/>
                 
                 <img src={this.props.src[1]} style={{
                     ...imgBaseStyle,
                     ...{transition: `all ${this.props.anim_duration/1000}s`, opacity:this.state.op2}
-                }} alt={this.props.alt}/>
+                }} alt={this.props.alt[1]}/>
             </div>
         );
     }

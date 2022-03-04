@@ -34,25 +34,25 @@ class Retails extends Component{
             <div className="fluid-container retails-base" id="retails">
                 <div className="retailsA">
                     <div>
-                        <img src={imgA} alt="" />
+                        <img src={imgA} alt={content.imgA.alt} />
                         <div className="customInteriors-img-overlay">
                             {content.imgA.front}
                         </div>
                     </div>
                     <div>
-                        <img src={imgB} alt="" />
+                        <img src={imgB} alt={content.imgB.alt} />
                         <div className="customInteriors-img-overlay">
                             {content.imgB.front}
                         </div>
                     </div>
                     <div>
-                        <img src={imgC} alt="" />
+                        <img src={imgC} alt={content.imgC.alt} />
                         <div className="customInteriors-img-overlay">
                             {content.imgC.front}
                         </div>
                     </div>
                     <div>
-                        <img src={imgD} alt="" />
+                        <img src={imgD} alt={content.imgD.alt} />
                         <div className="customInteriors-img-overlay">
                             {content.imgD.front}
                         </div>

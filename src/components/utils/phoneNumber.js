@@ -34,7 +34,7 @@ class PhoneNumber extends Component{
             <a href={this.numberLink}>
                 <button className={this.state.buttonClassName} style={{...btnClass}}>
                 Call {this.props.employeeName} @ {this.props.employeeNumber} 
-                <img src={phoneIcon} alt="" style={{...imgClass}}/>
+                <img src={phoneIcon} alt={this.props.alt} style={{...imgClass}}/>
                 </button>
             </a>
         );

@@ -37,19 +37,19 @@ class Offices extends Component{
                         </div>
                     </div>
                     <div className="longImg gridItem">
-                        <img src={imgC} alt=""/>
+                        <img src={imgC} alt={content.imgA.alt}/>
                         <div className="customInteriors-img-overlay">
                             {content.imgA.front}
                         </div>
                     </div>
                     <div className="imgA gridItem">
-                        <img src={imgA} alt=""/>
+                        <img src={imgA} alt={content.imgB.alt}/>
                         <div className="customInteriors-img-overlay">
                             {content.imgB.front}
                         </div>
                     </div>
                     <div className="imgB gridItem">
-                        <img src={imgB} alt=""/>
+                        <img src={imgB} alt={content.imgC.alt}/>
                         <div className="customInteriors-img-overlay">
                             {content.imgC.front}
                         </div>
