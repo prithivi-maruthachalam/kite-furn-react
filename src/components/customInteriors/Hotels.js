@@ -29,7 +29,7 @@ const content = {
             front: 'This spacious guestroom is exotically cozy for its guests.'
         },
         roomNumber: {
-            alt: 'some alt text'
+            alt: 'We have best interior and furniture products for hotels'
         }
 }
 

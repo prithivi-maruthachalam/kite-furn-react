@@ -13,6 +13,26 @@ import PhoneButton from './utils/phoneNumber';
 import '../styles/animations.css';
 import '../styles/header.css';
 
+const content = {
+  home: {
+    alt: 'We design, manufacture and install furniture and interiors.'
+  },
+  arrow: {
+    alt: 'We are specialists in hotels, restaurants, bakeries, coffee shops and departmental store interior designs.'
+  },
+  map: {
+    alt: 'We are located at Singanallur, Coimbatore, tamilnadu, India.'
+  },
+  phA: {
+    alt: 'Call us to get free designs and a quote.'
+  },
+  phB: {
+    alt: 'Kite furn and Kite Kitchens has its display showroom at Coimbatore.'
+  },
+  menu: {
+    alt: 'Wooden staircase designs in Coimbatore.'
+  }
+}
 
 class Header extends Component{
     render(){
@@ -23,7 +43,7 @@ class Header extends Component{
                 <div className="col-head header-left">
                   <WrappedNav/>
                   <CollapsibleCustomMenu className="mx-2-5 header-button-base hover-flip">
-                    Customized Interiors<img className="top-btn-arrow" src={dropArrow} alt=""/> 
+                    Customized Interiors<img className="top-btn-arrow" src={dropArrow} alt={content.arrow.alt}/> 
                   </CollapsibleCustomMenu>
                 </div>
 
@@ -32,14 +52,14 @@ class Header extends Component{
                       <CollapsibleMenu/>
                       <a href="https://goo.gl/maps/u4nzcxS5XatMFXyA7" target="_blank">
                         <button className="header-button-base map-button">
-                          <img src={mapIcon} alt="Interior showroom design 303-1, Trichy Road Singanallur Coimbatore" className="map-icon hover-shake"/>
+                          <img src={mapIcon} alt={content.map.alt} className="map-icon hover-shake"/>
                         </button>
                       </a>
                     </div>
 
                     <div className="phn-container">
-                      <PhoneButton employeeName="Sajeesh" employeeNumber="8940401792" className="mx-2-5 call-btn-pad call-btn-A"/>
-                      <PhoneButton employeeName="Prabhu" employeeNumber="8940401793" className="mx-2-5 call-btn-pad call-btn-B"/>
+                      <PhoneButton employeeName="Sajeesh" employeeNumber="8940401792" alt={content.phA.alt} className="mx-2-5 call-btn-pad call-btn-A"/>
+                      <PhoneButton employeeName="Prabhu" employeeNumber="8940401793" alt={content.phB.alt} className="mx-2-5 call-btn-pad call-btn-B"/>
                     </div>
                     <Link to="/"><button className="btn btn-logo mx-2-5"/></Link>
                   </div>
@@ -108,7 +128,7 @@ class NavMenu extends Component{
       <span>
         <Link to="/" className="resp-block">
           <button className={this.state.classnameslist[0]} onClick={() => this.navSwitch(0)}>
-            <img className="top-btn-img-home" src={homeIcon} alt="space saving furniture for small homes"/>
+            <img className="top-btn-img-home" src={homeIcon} alt={content.home.alt}/>
           </button>
         </Link>  
 
@@ -154,7 +174,7 @@ class CollapsibleMenu extends Component{
     return(
       <span className="coll-nav">
         <button ref={this.wrapperRef} className="header-button-base menu-button" onClick={()=>{this.setState({inProp: !this.state.inProp});}}>
-          <img src={menuIcon} alt="Interior showroom design 303-1, Trichy Road Singanallur Coimbatore" className="map-icon hover-shake"/>
+          <img src={menuIcon} alt={content.menu.alt} className="map-icon hover-shake"/>
         </button>
         <CSSTransition
           in = {this.state.inProp}
@@ -171,7 +191,7 @@ class CollapsibleMenu extends Component{
             </div>
             <WrappedNav/>
             <CustomMenu className="mx-2-5 header-button-base hover-flip resp-block">
-              Customized Interiors<img className="top-btn-arrow" src={dropArrow} alt=""/> 
+              Customized Interiors<img className="top-btn-arrow" src={dropArrow} alt={content.arrow.alt}/> 
             </CustomMenu>
           </div>
         </CSSTransition>

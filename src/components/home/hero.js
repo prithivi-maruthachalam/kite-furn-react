@@ -19,7 +19,7 @@ const content = {
             ]
     },
     button: {
-        alt: ''
+        alt: 'We do good residence interior designs at Erode and Salem.'
     }
 }
 
@@ -46,7 +46,7 @@ class Hero extends Component{
                         <div className="mt-4-5">
                             <Link to="/residenceInteriors">
                                 <button className="btn btn-light btn-explore">
-                                    Explore <img className="btn-img" src={arrow} alt="space saving furniture for small homes"/>
+                                    Explore <img className="btn-img" src={arrow} alt={content.button.alt}/>
                                 </button>
                             </Link>
                         </div>
