@@ -12,19 +12,19 @@ const content = {
     subTitle: 'Beauty & Functionality',
     subtext: 'We customize manufacture and supply home interiors. We do Living, dining, bedrooms, kitchens, stairs, storage units and more so that your space meets your every requirement.',
     imgA: {
-        alt: '',
+        alt: 'We do residence interiors in Coimbatore. We do wardrobes with mirrors and home furniture. ',
         front: 'We also create bedrooms as an expression such as this Egyptian themed bedroom with motifs.'
     },
     imgB: {
-        alt: '',
+        alt: 'Partitions and sliding partitions in wood and glass.',
         front: 'We also create lively spaces such as this patio surrounded by living, dining and a corridor.'
     },
     imgC: {
-        alt: '',
+        alt: 'Dining room interiors including customized dining tables.',
         front: 'Even the hand wash unit can become a beautiful accent such as the one in this dining. '
     },
     imgD: {
-        alt: '',
+        alt: 'We also do fixed partitions and wooden handrails and study room furniture.',
         front: 'We also do Indian classical and European classical themed spaces.'
     }
 }

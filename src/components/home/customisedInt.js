@@ -14,22 +14,22 @@ const customImages = [bedroomA,homeA,hotelA,hall,bedroomB,hotelB];
 
 const content = {
     imgA: {
-        alt: ''
+        alt: 'Bedroom furniture. Cots, wardrobes, side units, dressing units, TV units, chest of drawers.'
     },
     imgB: {
-        alt: ''
+        alt: 'Living room furniture including side units, TV units, show cases'
     },
     imgC: {
-        alt: ''
+        alt: 'Hotel interiors, room interiors, restaurants, bars, meeting and conference halls, Banquet halls are taken up as turnkey contracts.'
     },
     imgD: {
-        alt: ''
+        alt: 'Halls including marriage halls, banquet halls, meeting halls.'
     },
     imgE: {
-        alt: ''
+        alt: 'We do wardrobes in particle board, MDF, prelam MDF, plywood, wood, glass,and acrylic.'
     },
     imgF: {
-        alt: ''
+        alt: 'We also do custom interiors and customized furniture. Design and execution of restaurants, coffee shops, bakeries, eateries is our specialty.'
     }
 }
 

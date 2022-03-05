@@ -11,19 +11,19 @@ const content = {
     subTitle: 'Maximize Customer Flow',
     subtext: 'We smartly design retail store layouts. Designs which assists walk-ins and converts walk-ins to sales. Even a minimal budget, when used wisely, can bring out your store\’s full potential.',
     imgA: {
-        alt: '',
+        alt: 'Shops and retail layout design is our specialty.',
         front: 'We also create exterior appeal by styling of a retail outlet such as this one.'
     },
     imgB: {
-        alt: '',
+        alt: 'We do architectural designs and service at Singanallur, Ondipudhur, Peelamedu, Avinashi road, Erode, Coimbatore',
         front: 'We also design signage and graphics in retail outlets.'
     },
     imgC: {
-        alt: '',
+        alt: 'Wooden departmental store racks are supplied by us.',
         front: 'Many retail spaces such as this one also serves as a showroom to help a brand connect with its potential customers.'
     },
     imgD: {
-        alt: '',
+        alt: 'Display showcases are done by us.',
         front: 'A well designed floor plan plays a critical role in managing store flow, traffic and sales.'
     }
 }

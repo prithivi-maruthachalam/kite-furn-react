@@ -13,23 +13,19 @@ const content = {
             '\nThe design details we do in hotels helps make them stand out. Hotel interior design is crucial to make any guest feel welcome.' + 
             '\nWe do spaces which are functional, attractive and beneficial to visitors.',
         imgA: {
-            alt: '',
-            front: ''
-        },
-        imgA: {
-            alt: '',
+            alt: 'Reception and reception table with wall paneling in glass.',
             front: 'This stunning and beautiful lobby makes the hotel memorable and a guest would be delighted to go through it.'
         },
         imgB: {
-            alt: '',
+            alt: 'Cozy guest room interiors with walnut and teakwood cot.',
             front: 'Guest room should be functional, attractive, luxurious and comforting as in this room.'
         },
         imgC: {
-            alt: '',
+            alt: 'Reception with custom built wooden light fixture.',
             front: 'This business class hotel’s lobby also doubles as a place for casual meetings.'
         },
         imgD: {
-            alt: '',
+            alt: 'Guest bedroom with twin cot, which can be converted to double bed.',
             front: 'This spacious guestroom is exotically cozy for its guests.'
         },
         roomNumber: {

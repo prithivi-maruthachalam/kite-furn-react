@@ -13,23 +13,23 @@ const content = {
     subtext: 'We can make coffee shops and bakeries into memorable spaces through design. We make the most of the space you have, especially with a small one.' + 
             '\nRevamp Your Restaurant\'s Interior Design On a Budget',
     imgA: {
-        alt: '',
+        alt: 'Wooden wall displays and graphic showcases in bakeries and coffee shops.',
         front: 'This unique wall display in this bakery merchandises products through backdrop graphics and its unique display.'
     },
     imgB: {
-        alt: '',
+        alt: 'Coffee shop interiors in wooden shelves.',
         front: 'This classic, rich and traditional interior makes the outlet posh and position itself high up.'
     },
     imgC: {
-        alt: '',
+        alt: 'Fine dining restaurants with good ambient lighting designs.',
         front: 'Good decor and rich interiors makes this restaurant more effective in marketing your food.'
     },
     imgD: {
-        alt: '',
+        alt: 'Cake display showcases with attractive graphics in black and white scheme.',
         front: 'This coffee shop pulls crowd from the highway with bold and overstated graphics'
     },
     imgE: {
-        alt: '',
+        alt: 'We also do bars, PDR’s or private dining restaurants.',
         front: 'Creative and colorful lights combined with dimly lit areas sets the right ambiance and mood along with privacy for those who need it.'
     },
 }

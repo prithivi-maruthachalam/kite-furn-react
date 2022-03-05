@@ -8,10 +8,10 @@ import '../../styles/home/kitchen.css';
 
 const content = {
     imgA: {
-        alt: ''
+        alt: 'Modern, traditional, contemporary modular kitchens including cabinets and shutters.'
     },
     imgB: {
-        alt: ''
+        alt: 'We do modular kitchens and pantry units in Pollachi, Udumalpet, Coimbatore, Erode, Ooty, Salem.'
     }
 }
 

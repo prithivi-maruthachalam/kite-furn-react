@@ -34,31 +34,31 @@ const btnClass = {
 
 const content = {
     imgA: {
-        alt: ''
+        alt: 'Custom wardrobe, 2 door wardrobe, four door wardrobe, customized wardrobes are manufactured by us.'
     },
     imgB: {
-        alt: ''
+        alt: 'Innovative designs are done by our architect.'
     },
     imgC: {
-        alt: ''
+        alt: 'We design and manufacture furniture. Our project manager delivers furniture on time.'
     },
     imgD: {
-        alt: ''
+        alt: 'Our interior designers give best interior design ideas. Our manager - projects ensures quality of furniture.'
     },
     imgE: {
-        alt: ''
+        alt: 'We manufacture single bed, double bed, queen bed, king sized bed and storage bed.'
     },
     imgF: {
-        alt: ''
+        alt: 'We do single cot, double cot, queen size cot, king cot and storage bed.'
     },
     imgG: {
-        alt: ''
+        alt: 'We do aesthetic and functional designs. Many best selling wardrobes are in our product range.'
     },
     imgPhA: {
-        alt: 'ph test'
+        alt: 'We do interiors in a budget.'
     },
     imgPhB: {
-        alt: 'ph test 2'
+        alt: 'We do pooja shelves and pooja room design in Salem and Sathyamangalam.'
     }
 }
 

@@ -13,12 +13,15 @@ const bedImages = [bedBase, bedlift];
 
 const content = {
     imgA: {
-        alt: 'modern stairs custom design beautiful interior design end-to end interior solutions customised staircases'
+        alt: [
+            'We do glass staircases and glass handrails at Salem, Tiruppur, Coimbatore, Erode, Ooty, in Tamilnadu',
+            'We do cheap and best staircase and handrails.'
+        ]    
     },
     imgB: {
         alt: [
-            'Made in india Single Bed, Queen Bed, Single Cot, Queen Size cot, King Size Cot, King Size Storage Bed, King Bed, Hydraulic Storage Beds, Hydraulic Storage Cot, Storage Beds in Coimabtore, Erode, Ooty, Salem, Tamil Nadu, Storage Cots in Coimabtore, Erode, Ooty, Salem, Tamil Nadu Beds with storage',
-            'other one'
+            'Remote operated storage cots.',
+            'Storage beds, hydraulic storage beds and hydraulic storage cots with remote.'
         ]
     }
 }
@@ -28,8 +31,8 @@ class Hero2 extends Component{
         return(
             <div className="fluid-container hero2-base">
                 <div className="hero2-A">
-                    <img src={stairs} className="img-stairs" alt={content.imgA.alt} />
-                    <img src={stairs2} className="img-stairs stairDisp" alt="modern stairs custom design beautiful interior design end-to end interior solutions customised staircases " />
+                    <img src={stairs} className="img-stairs" alt={content.imgA.alt[0]} />
+                    <img src={stairs2} className="img-stairs stairDisp" alt={content.imgA.alt[1]} />
 
                     <div className="stair-text-container">
                         <div className="content-stair-top">STAIRCASES</div>

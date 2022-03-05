@@ -10,15 +10,15 @@ import '../../styles/customInteriors/offices.css';
 const content = {
     subtext: 'Office interiors have the power to play a major role in influencing the emotions of owners, employees, and customers. We do office interiors which gives an identity to the business.',
     imgA: {
-        alt: '',
+        alt: 'Storage solutions for offices and homes are provided by us.',
         front: 'This functional workspace improves productivity with its design efficiency.'
     },
     imgB: {
-        alt: '',
+        alt: 'Offices with stunning color scheme and file storage units are done by us.',
         front: 'We also design thematic and color based offices identifying the office with the business.'
     },
     imgC: {
-        alt: '',
+        alt: 'Book shelves, study room furniture, home office furniture are also offered by us.',
         front: 'We also design home offices where you work from home such as the one shown here.'
     }
 }

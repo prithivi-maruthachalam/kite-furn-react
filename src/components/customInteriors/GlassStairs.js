@@ -7,13 +7,13 @@ import '../../styles/customInteriors/glassStairs.css';
 
 const content = {
     imgA: {
-        alt: 'testing',
-        alt2: 'testing2',
+        alt: 'Steel and wooden stairs with glass handrails can be done.',
+        alt2: 'We do balcony handrails.',
         front: 'Glass and wooden rails along with wood finishes for steps makes this existing staircase look new, modern & spacious.'
     }, 
     imgB: {
-        alt: 'testing',
-        alt2: 'testing2',
+        alt: 'Beautiful handrails for existing staircase.',
+        alt2: 'Good shower partition in glass can be supplied.',
         front: 'This prefabricated steel steps finished in wood with glass and wooden rails complements a modern home.'
     }, 
     subTitle: {
