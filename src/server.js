@@ -3,6 +3,7 @@ import React from 'react';
 import express from 'express';
 import { renderToString } from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
+import cors from 'cors'
 
 const assets = require(process.env.RAZZLE_ASSETS_MANIFEST);
 
@@ -98,6 +99,7 @@ export const renderApp = (req, res) => {
 server
   .disable('x-powered-by')
   .use(express.static(process.env.RAZZLE_PUBLIC_DIR))
+  .use(cors())
   .get('/*', (req, res) => {
     const { html, context } = renderApp(req, res);
 
