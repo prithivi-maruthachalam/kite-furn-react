@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import imgA from '../../media/images/customInteriors/offices/A.JPG';
-import imgB from '../../media/images/customInteriors/offices/B.JPG';
-import imgC from '../../media/images/customInteriors/offices/C.JPG';
+import imgA from '../../media/images/customInteriors/offices/A.jpg';
+import imgB from '../../media/images/customInteriors/offices/B.jpg';
+import imgC from '../../media/images/customInteriors/offices/C.jpg';
 
 import '../../styles/customInteriors/offices.css';
 

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import roomNumber from '../../media/images/customInteriors/hotels/roomNumber.png';
+import roomNumber from '../../media/images/customInteriors/hotels/roomNumber.jpg';
 import A from '../../media/images/customInteriors/hotels/A.jpg'
 import B from '../../media/images/customInteriors/hotels/B.jpg'
 import C from '../../media/images/customInteriors/hotels/C.jpg'
