@@ -1,0 +1,297 @@
+.kitchen-base {
+  background-color: #505050;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e7e7e6;
+  position: relative;
+}
+
+.kitchen-A {
+  height: 100%;
+  width: auto;
+  padding-top: 40px;
+  padding-left: 25px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+
+  display: grid;
+  grid-template-columns: 550px 550px;
+  grid-gap: 25px;
+}
+
+.kitchen-img {
+  min-height: 100%;
+  border-radius: 3px;
+}
+
+.kitchen-B {
+  height: 100%;
+  text-align: right;
+  padding-top: 25px;
+  padding-right: 38px;
+  padding-bottom: 25px;
+}
+
+.kitchen-title {
+  color: #6c96db;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  line-height: 0.9;
+  font-size: 5.5vw;
+  padding-top: 5px;
+  text-align: right;
+}
+
+.btn-kitchen {
+  padding: 5px 30px;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin-top: 40px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  border: none !important;
+  color: #4a7197;
+  transition: all 0.4s;
+  margin-bottom: 20px;
+}
+
+.btn-kitchen:hover {
+  background-color: #e4e4e4;
+  transition: all 0.4s;
+}
+
+.kitchen-content {
+  padding-left: 80px;
+  font-size: 23px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  margin-top: 45px;
+}
+
+/*Breakpoints*/
+@media (max-width: 1790px) {
+  .kitchen-A {
+    grid-template-columns: repeat(2, 500px);
+  }
+
+  .kitchen-content {
+    font-size: 22px;
+    margin-top: 35px;
+  }
+
+  .kitchen-title {
+    font-size: 5vw;
+    padding-left: 20px;
+  }
+
+  .btn-kitchen {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1530px) {
+  .kitchen-A {
+    grid-template-columns: repeat(2, 460px);
+  }
+
+  .kitchen-content {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1450px) {
+  .kitchen-content {
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 1415px) {
+  .kitchen-base {
+    flex-wrap: wrap-reverse;
+  }
+
+  .kitchen-A {
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    padding: 30px;
+    padding-top: 16px;
+  }
+
+  .kitchen-title {
+    text-align: left;
+    width: 50%;
+    font-size: 90px;
+  }
+
+  .kitchen-content {
+    position: absolute;
+    top: 3px;
+    right: 30px;
+    text-align: right;
+    width: 50%;
+    font-size: 23px;
+  }
+
+  .btn-kitchen {
+    position: absolute;
+    top: 95px;
+    font-size: 25px;
+    right: 30px;
+  }
+}
+
+@media (max-width: 1261px) {
+  .kitchen-A {
+    margin-top: 30px;
+  }
+
+  .kitchen-content {
+    font-size: 22px;
+  }
+
+  .kitchen-title {
+    font-size: 95px;
+  }
+}
+
+@media (max-width: 1210px) {
+  .btn-kitchen {
+    top: 125px;
+  }
+
+  .kitchen-content {
+    margin-top: 30px;
+  }
+
+  .kitchen-title {
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 1085px) {
+  .kitchen-content {
+    width: 40%;
+  }
+
+  .btn-kitchen {
+    top: 160px;
+  }
+
+  .kitchen-A {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 950px) {
+  .kitchen-title {
+    font-size: 85px;
+  }
+
+  .kitchen-content {
+    font-size: 21px;
+    width: 30%;
+  }
+
+  .btn-kitchen {
+    position: static;
+    margin-left: 30px;
+  }
+
+  .kitchen-B {
+    text-align: left;
+  }
+
+  .kitchen-A {
+    margin-top: 0;
+    padding-top: 5px;
+  }
+}
+
+@media (max-width: 860px) {
+  .kitchen-A {
+    grid-template-columns: auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .kitchen-title {
+    font-size: 10vw;
+  }
+
+  .kitchen-content {
+    width: 35%;
+  }
+}
+
+@media (max-width: 690px) {
+  .kitchen-content {
+    font-size: 3vw;
+  }
+
+  .btn-kitchen {
+    font-size: 22px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 660px) {
+  .kitchen-content {
+    font-size: 20px;
+  }
+
+  .kitchen-A {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .kitchen-A {
+    grid-gap: 10px;
+    margin-top: 0;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 0;
+  }
+
+  .kitchen-title {
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+
+    padding: 0;
+  }
+
+  .kitchen-B {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+
+  .kitchen-content {
+    position: static;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    font-size: 16px!important;
+    margin-top: 15px;
+  }
+
+  .btn-kitchen {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 18px!important;
+  }
+}
+
+@media(max-width: 430px){
+  .kitchen-title{
+    font-size: 7vw;
+  }
+}

@@ -1,0 +1,90 @@
+.res-glassStairs-base {
+    padding: 40px 35px;
+    background-color: rgb(235, 238, 238);
+    position: relative;
+
+    height: 750px;
+}
+
+.show-1300{
+    display: none!important;
+}
+
+.bootstrap-row{
+    height: 100%;
+    width: 100%;
+
+    margin: 0!important;
+}
+
+.res-gs-element {
+    height: 100%;
+}
+
+.res-gs-img-container{
+    height: 100%;
+    width: 100%;
+}
+
+.res-gs-img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.res-gs-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.res-gs-title{
+    font-size: 90px;
+    font-weight: 800;
+    font-family: "Open Sans",
+    sans-serif;
+    line-height: 1;
+    color: #3e7e78;
+}
+
+.res-gs-content{
+    font-size: 22px;
+    color: #485554;
+    padding-top: 20px;
+}
+
+@media(max-width: 1300px){
+    .res-glassStairs-base{
+        height: auto;
+        padding: 20px;
+    }
+
+    .res-gs-content{
+        font-size: 20px;
+    }
+
+    .res-gs-title{
+        font-size: 80px;
+    }
+
+    .hide-1300{
+        display: none;
+    }
+
+    .show-1300 {
+        display: block!important;
+        padding-bottom: 20px;
+    }
+
+    .res-gs-content{
+        width: 100%;
+        padding: 10px 100px;
+    }
+}
+
+@media(max-width: 800px){
+    .res-gs-content {
+        width: 100%;
+        padding: 10px 10px;
+    }
+}

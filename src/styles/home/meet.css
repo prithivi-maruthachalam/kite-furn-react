@@ -1,0 +1,404 @@
+.meet-base{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 35px;
+    background-color: #928181;
+}
+
+.meet-left{
+    width: 28%;
+}
+
+.meet-head{
+    color: #a89797;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    line-height: 1;
+    font-size: 50px!important;
+
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 30px;
+    padding-bottom: 28px;
+    
+}
+
+.meet-left-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: url("../../media/backgrounds/dirtB.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.meet-left-images{
+    width: 100%;
+    height: 650px;
+    text-align: center;
+    display: block;
+
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    grid-gap: 40px;
+    padding: 0 30px;
+    border-right: 2px solid #a89797b9;;
+}
+
+#img-L-A{
+    object-position: 20% 0;
+}
+
+.mt-4ish{
+    margin-top: 20px;
+}
+
+
+.meet-right{
+    width: 72%;
+    background-color: #928181;
+}
+
+.meet-right-images{
+    width: 100%;
+    padding: 0 40px;
+
+    height: 650px;
+
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(1px, 1fr));
+    grid-gap: 50px 50px;
+}
+
+.meet-right-images > div{
+    text-align: center;
+    position: relative;
+}
+
+.img-container{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.img-container > img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#sajeesh{
+    object-position: 20% 0;
+}
+
+.meet-img-card{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    float: right;
+    height: 100%;
+    width: 50%;
+
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0), rgba(0, 0, 0, 0.041));
+
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+#mm_card{
+    right: -10px;
+}
+
+.person-name{
+    font-size: 26px;
+    color: #534747e3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+#mm{
+    font-size: 23px;
+}
+
+.person-desc{
+    font-size: 19px;
+    color: #615d5d;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding-top: 2px;
+    padding-left: 15px;
+}
+
+.text-container{
+    padding-right: 10px;
+
+    position: absolute;
+    left: -10px;
+    top: 0;
+
+    text-align: left;
+}
+
+.address-title{
+    font-size: 1.1vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+
+    color: #c0a899;
+}
+
+.address-text{
+    padding-top: 8px;
+    font-size: 1.1vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #cfb8b8;;
+}
+
+.footer-phone{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 7px 22px!important;
+    background: linear-gradient(145deg, #beaeae, #c2a6a6);
+    box-shadow:  5px 5px 5px #7c6e6ea4;
+}
+
+.footer-buttons-container{
+    margin-top: 30px;
+}
+
+
+/* Breakpoints */
+@media(max-width: 1730px){
+    .address-text{
+        font-size: 19px;
+    }
+
+    .address-title{
+        font-size: 19px;
+    }
+}
+
+@media(max-width: 1700px){
+    #mm-img{
+        width: 90%;
+    }
+}
+
+@media(max-width: 1615px){
+    #harini{
+        width: 60%;
+    }
+}
+
+@media(max-width: 1590px){
+    .flex-container{
+        flex-direction: column;
+    }
+
+    .meet-right{
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    #mm-img{
+        width: 100%;
+    }
+
+    #harini{
+        width: 50%;
+    }
+
+    .meet-left-images{
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        grid-template-rows: minmax(0,1fr);
+        height: 400px;
+        padding: 0 40px;
+    }
+
+    .meet-left{
+        width: 100%;
+    }
+
+    .address-text {
+        font-size: 20px;
+    }
+
+    .address-title {
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1300px){
+    .address-text {
+        font-size: 19px;
+    }
+
+    .address-title {
+        padding-bottom: 2px;
+        font-size: 19px;
+    }
+}
+
+@media(max-width: 1200px){
+    .meet-right-images{
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        grid-template-rows: repeat(3,minmax(0,1fr));
+        height: 1050px;
+    }
+
+    .address-text {
+        font-size: 20px;
+    }
+
+    .address-title {
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1050px){
+    .meet-left-images{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-template-rows: repeat(2, minmax(0, 1fr));
+        height: 1000px;
+    }
+}
+
+@media(max-width: 980px){
+    .meet-right-images {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-template-rows: repeat(5, minmax(0, 1fr)) minmax(0, 0.45fr);
+        height: 2900px;
+    }
+}
+
+@media(max-width: 875px){
+    .meet-left-images {
+        height: 120vw;
+    }
+}
+
+@media(max-width: 760px){
+    .meet-right-images {
+        grid-template-rows: repeat(5, minmax(0, 1fr)) minmax(0, 0.52fr);
+    }
+}
+
+@media(max-width: 733px) {
+    .meet-right-images {
+        grid-template-rows: repeat(5, minmax(0, 1fr)) minmax(0, 0.55fr);
+    }
+}
+
+@media(max-width: 575px){
+    .meet-head{
+        font-size: 9vw!important;
+    }
+
+    #prabhu{
+        object-position: 40% 0;
+    }
+
+    #sajeesh{
+        object-position: 30% 0;
+    }
+
+    .meet-right-images{
+        grid-template-rows: repeat(5, minmax(0, 1fr)) minmax(0, 0.7fr);
+        height: 2500px;
+    }
+}
+
+@media(max-width: 500px){
+    .meet-left-images{
+        padding: 0 30px;
+        grid-gap: 25px
+    }
+
+    .meet-head{
+        font-size: 30px!important;
+        padding: 10px 20px;
+    }
+
+    .meet-left-images{
+        grid-gap: 10px;
+        padding: 0 15px;
+    }
+
+    .meet-right{
+        margin-top: 15px;
+    }
+
+    .meet-right-images{
+        grid-gap: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 1000px;
+        grid-template-rows: repeat(5, minmax(0, 1fr)) minmax(0, 1.3fr);
+    }
+
+    .person-name{
+        font-size: 16px!important;
+    }
+
+    .person-desc{
+        font-size: 16px!important;
+    }
+
+    #mm_card{
+        right: 0;
+    }
+
+    .address-title{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .address-text{
+        font-size: 16px;
+        padding-top: 0;
+    }
+
+    .footer-phone{
+        font-size: 16px!important;
+    }
+
+    .footer-buttons-container{
+        margin-top: 15px;
+    }
+
+    .mt-4ish{
+        margin-top: 7px;
+    }
+
+    .text-container{
+        width: 100%;
+        padding-top: 10px;
+        padding-right: 0;
+        padding-left: 15px;
+    }
+
+    .img-container > img{
+        object-fit: contain!important;
+        object-position: 0 20%!important;
+    }
+    
+}
+
+@media(max-width: 358px){
+    .meet-right-images {
+        grid-template-rows: repeat(5, minmax(0, 1fr)) minmax(0, 1.6fr);
+    }
+}
